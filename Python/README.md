@@ -43,19 +43,35 @@ docker run -v $(pwd)/reports:/app/reports api-test-framework
 **Reports:**
 HTML report of 9 tests will be generated each run under:
 \RiseProject\reports\report.html
+generated html file: file:
+///C:/Documents/RiseProject/reports/report.html
 
-Project structure:
+==================================== 10 passed in 4.00s ====================================
+
+**Project structure:**
 
 ├── infra/                  # Core framework components
+
 │   ├── api_client.py       # HTTP client for API requests
+
 │   └── base_test.py        # Base test class with common functionality
+
 ├── tests/                  # Test files
+
 │   └── test_products.py    # Tests for product API endpoints
+
 ├── utils/                  # Utility classes
+
 │   ├── assertions.py       # Custom assertion methods
+
 │   └── logger.py           # Logging functionality
+
 ├── reports/                # Generated test reports
+
 ├── conftest.py             # Pytest configuration
+
 ├── requirements.txt        # Required packages
+
 ├── Dockerfile              # Docker configuration
+
 └── README.md               #current file
