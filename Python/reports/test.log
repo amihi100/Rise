@@ -1,0 +1,1907 @@
+2025-03-03 17:34:10,375 - INFO - Starting test
+2025-03-03 17:34:10,375 - INFO - Starting test
+2025-03-03 17:34:10,375 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:34:10,800 - INFO - Successfully retrieved 20 products
+2025-03-03 17:34:10,803 - INFO - Finishing test
+2025-03-03 17:34:10,803 - INFO - Finishing test
+2025-03-03 17:34:10,804 - INFO - Starting test
+2025-03-03 17:34:10,805 - INFO - Starting test
+2025-03-03 17:34:10,805 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:34:11,108 - INFO - Finishing test
+2025-03-03 17:34:11,108 - INFO - Finishing test
+2025-03-03 17:34:11,109 - INFO - Starting test
+2025-03-03 17:34:11,109 - INFO - Starting test
+2025-03-03 17:34:11,110 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:34:11,414 - INFO - Finishing test
+2025-03-03 17:34:11,414 - INFO - Finishing test
+2025-03-03 17:34:11,415 - INFO - Starting test
+2025-03-03 17:34:11,415 - INFO - Starting test
+2025-03-03 17:34:11,416 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:34:11,730 - INFO - Finishing test
+2025-03-03 17:34:11,730 - INFO - Finishing test
+2025-03-03 17:34:11,731 - INFO - Starting test
+2025-03-03 17:34:11,731 - INFO - Starting test
+2025-03-03 17:34:11,732 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:34:12,172 - INFO - Finishing test
+2025-03-03 17:34:12,172 - INFO - Finishing test
+2025-03-03 17:34:12,173 - INFO - Starting test
+2025-03-03 17:34:12,173 - INFO - Starting test
+2025-03-03 17:34:12,173 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:34:12,479 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:34:12,481 - INFO - Finishing test
+2025-03-03 17:34:12,481 - INFO - Finishing test
+2025-03-03 17:34:12,483 - INFO - Starting test
+2025-03-03 17:34:12,483 - INFO - Starting test
+2025-03-03 17:34:12,483 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:34:12,787 - INFO - Successfully created product: Test Product
+2025-03-03 17:34:12,789 - INFO - Finishing test
+2025-03-03 17:34:12,789 - INFO - Finishing test
+2025-03-03 17:34:12,791 - INFO - Starting test
+2025-03-03 17:34:12,791 - INFO - Starting test
+2025-03-03 17:34:12,791 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:34:13,191 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:34:13,193 - INFO - Finishing test
+2025-03-03 17:34:13,193 - INFO - Finishing test
+2025-03-03 17:42:28,979 - INFO - Starting test: test_get_all_products
+2025-03-03 17:42:28,980 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:42:29,393 - INFO - Successfully retrieved 20 products
+2025-03-03 17:42:29,396 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:42:29,397 - INFO - Starting test: test_product_categories
+2025-03-03 17:42:29,398 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:42:29,704 - INFO - Finishing test: test_product_categories
+2025-03-03 17:42:29,705 - INFO - Starting test: test_product_structure
+2025-03-03 17:42:29,706 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:42:30,008 - INFO - Finishing test: test_product_structure
+2025-03-03 17:42:30,009 - INFO - Starting test: test_price_ranges
+2025-03-03 17:42:30,010 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:42:30,273 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:42:30,274 - INFO - Starting test: test_products_by_category
+2025-03-03 17:42:30,275 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:42:30,679 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:42:30,680 - INFO - Starting test: test_get_single_product
+2025-03-03 17:42:30,681 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:42:31,004 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:42:31,006 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:42:31,007 - INFO - Starting test: test_create_product
+2025-03-03 17:42:31,008 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:42:31,351 - INFO - Successfully created product: Test Product
+2025-03-03 17:42:31,354 - INFO - Finishing test: test_create_product
+2025-03-03 17:42:31,356 - INFO - Starting test: test_delete_product
+2025-03-03 17:42:31,356 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:42:31,800 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:42:31,803 - INFO - Finishing test: test_delete_product
+2025-03-03 17:42:31,804 - INFO - Starting test: test_get_all_products
+2025-03-03 17:42:31,804 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:42:32,117 - INFO - Successfully retrieved 20 products
+2025-03-03 17:42:32,120 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:42:32,121 - INFO - Starting test: test_product_categories
+2025-03-03 17:42:32,122 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:42:32,422 - INFO - Finishing test: test_product_categories
+2025-03-03 17:42:32,424 - INFO - Starting test: test_product_structure
+2025-03-03 17:42:32,424 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:42:32,776 - INFO - Finishing test: test_product_structure
+2025-03-03 17:42:32,777 - INFO - Starting test: test_price_ranges
+2025-03-03 17:42:32,778 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:42:33,687 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:42:33,689 - INFO - Starting test: test_products_by_category
+2025-03-03 17:42:33,690 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:42:34,085 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:42:34,087 - INFO - Starting test: test_get_single_product
+2025-03-03 17:42:34,087 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:42:34,348 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:42:34,350 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:42:34,352 - INFO - Starting test: test_create_product
+2025-03-03 17:42:34,352 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:42:34,657 - INFO - Successfully created product: Test Product
+2025-03-03 17:42:34,659 - INFO - Finishing test: test_create_product
+2025-03-03 17:42:34,661 - INFO - Starting test: test_delete_product
+2025-03-03 17:42:34,661 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:42:35,078 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:42:35,080 - INFO - Finishing test: test_delete_product
+2025-03-03 17:44:38,714 - INFO - Starting test: test_get_all_products
+2025-03-03 17:44:38,715 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:44:39,018 - INFO - Successfully retrieved 20 products
+2025-03-03 17:44:39,020 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:44:39,021 - INFO - Starting test: test_product_categories
+2025-03-03 17:44:39,022 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:44:39,340 - INFO - Finishing test: test_product_categories
+2025-03-03 17:44:39,341 - INFO - Starting test: test_product_structure
+2025-03-03 17:44:39,342 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:44:39,676 - INFO - Finishing test: test_product_structure
+2025-03-03 17:44:39,677 - INFO - Starting test: test_price_ranges
+2025-03-03 17:44:39,678 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:44:39,976 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:44:39,978 - INFO - Starting test: test_products_by_category
+2025-03-03 17:44:39,978 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:44:40,333 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:44:40,334 - INFO - Starting test: test_get_single_product
+2025-03-03 17:44:40,335 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:44:40,596 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:44:40,598 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:44:40,599 - INFO - Starting test: test_create_product
+2025-03-03 17:44:40,600 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:44:40,898 - INFO - Successfully created product: Test Product
+2025-03-03 17:44:40,900 - INFO - Finishing test: test_create_product
+2025-03-03 17:44:40,901 - INFO - Starting test: test_delete_product
+2025-03-03 17:44:40,902 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:44:41,289 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:44:41,291 - INFO - Finishing test: test_delete_product
+2025-03-03 17:44:41,292 - INFO - Starting test: test_get_all_products
+2025-03-03 17:44:41,293 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:44:41,550 - INFO - Successfully retrieved 20 products
+2025-03-03 17:44:41,552 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:44:41,553 - INFO - Starting test: test_product_categories
+2025-03-03 17:44:41,554 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:44:41,864 - INFO - Finishing test: test_product_categories
+2025-03-03 17:44:41,865 - INFO - Starting test: test_product_structure
+2025-03-03 17:44:41,866 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:44:42,167 - INFO - Finishing test: test_product_structure
+2025-03-03 17:44:42,168 - INFO - Starting test: test_price_ranges
+2025-03-03 17:44:42,168 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:44:42,463 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:44:42,464 - INFO - Starting test: test_products_by_category
+2025-03-03 17:44:42,465 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:44:42,824 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:44:42,826 - INFO - Starting test: test_get_single_product
+2025-03-03 17:44:42,826 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:44:43,175 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:44:43,177 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:44:43,178 - INFO - Starting test: test_create_product
+2025-03-03 17:44:43,179 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:44:43,526 - INFO - Successfully created product: Test Product
+2025-03-03 17:44:43,528 - INFO - Finishing test: test_create_product
+2025-03-03 17:44:43,530 - INFO - Starting test: test_delete_product
+2025-03-03 17:44:43,530 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:44:43,890 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:44:43,894 - INFO - Finishing test: test_delete_product
+2025-03-03 17:48:22,517 - INFO - Starting test: test_get_all_products
+2025-03-03 17:48:22,518 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:48:22,979 - INFO - Successfully retrieved 20 products
+2025-03-03 17:48:22,982 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:48:22,984 - INFO - Starting test: test_product_categories
+2025-03-03 17:48:22,984 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:48:23,282 - INFO - Finishing test: test_product_categories
+2025-03-03 17:48:23,283 - INFO - Starting test: test_product_structure
+2025-03-03 17:48:23,285 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:48:23,585 - INFO - Finishing test: test_product_structure
+2025-03-03 17:48:23,587 - INFO - Starting test: test_price_ranges
+2025-03-03 17:48:23,587 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:48:23,947 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:48:23,949 - INFO - Starting test: test_products_by_category
+2025-03-03 17:48:23,950 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:48:25,513 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:48:25,514 - INFO - Starting test: test_get_single_product
+2025-03-03 17:48:25,515 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:48:25,825 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:48:25,827 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:48:25,829 - INFO - Starting test: test_create_product
+2025-03-03 17:48:25,829 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:48:26,135 - INFO - Successfully created product: Test Product
+2025-03-03 17:48:26,138 - INFO - Finishing test: test_create_product
+2025-03-03 17:48:26,140 - INFO - Starting test: test_delete_product
+2025-03-03 17:48:26,141 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:48:26,581 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:48:26,585 - INFO - Finishing test: test_delete_product
+2025-03-03 17:53:37,813 - INFO - Starting test: test_get_all_products
+2025-03-03 17:53:37,814 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:53:38,198 - INFO - Successfully retrieved 20 products
+2025-03-03 17:53:38,202 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:53:38,203 - INFO - Starting test: test_product_categories
+2025-03-03 17:53:38,203 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:53:38,476 - INFO - Finishing test: test_product_categories
+2025-03-03 17:53:38,478 - INFO - Starting test: test_product_structure
+2025-03-03 17:53:38,478 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:53:38,734 - INFO - Finishing test: test_product_structure
+2025-03-03 17:53:38,735 - INFO - Starting test: test_price_ranges
+2025-03-03 17:53:38,736 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:53:39,031 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:53:39,033 - INFO - Starting test: test_products_by_category
+2025-03-03 17:53:39,033 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:53:39,395 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:53:39,397 - INFO - Starting test: test_get_single_product
+2025-03-03 17:53:39,397 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:53:39,709 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:53:39,712 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:53:39,713 - INFO - Starting test: test_create_product
+2025-03-03 17:53:39,714 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:53:40,014 - INFO - Successfully created product: Test Product
+2025-03-03 17:53:40,016 - INFO - Finishing test: test_create_product
+2025-03-03 17:53:40,017 - INFO - Starting test: test_delete_product
+2025-03-03 17:53:40,018 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:53:40,279 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 17:53:40,280 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:53:40,709 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:53:40,710 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:53:41,053 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 17:53:41,058 - INFO - Finishing test: test_delete_product
+2025-03-03 17:54:17,187 - INFO - Starting test: test_get_all_products
+2025-03-03 17:54:17,187 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:54:17,536 - INFO - Successfully retrieved 20 products
+2025-03-03 17:54:17,538 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:54:17,539 - INFO - Starting test: test_product_categories
+2025-03-03 17:54:17,539 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:54:17,879 - INFO - Finishing test: test_product_categories
+2025-03-03 17:54:17,880 - INFO - Starting test: test_product_structure
+2025-03-03 17:54:17,880 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:54:18,178 - INFO - Finishing test: test_product_structure
+2025-03-03 17:54:18,180 - INFO - Starting test: test_price_ranges
+2025-03-03 17:54:18,180 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:54:18,480 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:54:18,481 - INFO - Starting test: test_products_by_category
+2025-03-03 17:54:18,482 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:54:18,841 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:54:18,842 - INFO - Starting test: test_get_single_product
+2025-03-03 17:54:18,843 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:54:19,144 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:54:19,147 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:54:19,148 - INFO - Starting test: test_create_product
+2025-03-03 17:54:19,149 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:54:19,443 - INFO - Successfully created product: Test Product
+2025-03-03 17:54:19,446 - INFO - Finishing test: test_create_product
+2025-03-03 17:54:19,447 - INFO - Starting test: test_delete_product
+2025-03-03 17:54:19,447 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:54:19,783 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 17:54:19,784 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:54:20,191 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:54:20,191 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:54:20,548 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 17:54:20,552 - INFO - Finishing test: test_delete_product
+2025-03-03 17:56:46,474 - INFO - Starting test: test_get_all_products
+2025-03-03 17:56:46,475 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:56:46,779 - INFO - Successfully retrieved 20 products
+2025-03-03 17:56:46,781 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:56:46,783 - INFO - Starting test: test_product_categories
+2025-03-03 17:56:46,783 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:56:47,057 - INFO - Finishing test: test_product_categories
+2025-03-03 17:56:47,059 - INFO - Starting test: test_product_structure
+2025-03-03 17:56:47,060 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:56:47,371 - INFO - Finishing test: test_product_structure
+2025-03-03 17:56:47,373 - INFO - Starting test: test_price_ranges
+2025-03-03 17:56:47,374 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:56:47,646 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:56:47,647 - INFO - Starting test: test_products_by_category
+2025-03-03 17:56:47,648 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:56:48,094 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:56:48,095 - INFO - Starting test: test_get_single_product
+2025-03-03 17:56:48,096 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:56:48,432 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:56:48,435 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:56:48,436 - INFO - Starting test: test_create_product
+2025-03-03 17:56:48,437 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:56:48,743 - INFO - Successfully created product: Test Product
+2025-03-03 17:56:48,746 - INFO - Finishing test: test_create_product
+2025-03-03 17:56:48,747 - INFO - Starting test: test_delete_product
+2025-03-03 17:56:48,747 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:56:49,031 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 17:56:49,032 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:56:49,436 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:56:49,436 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:56:49,740 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 17:56:49,745 - INFO - Finishing test: test_delete_product
+2025-03-03 17:58:31,175 - INFO - Starting test: test_get_all_products
+2025-03-03 17:58:31,176 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:58:31,569 - INFO - Successfully retrieved 20 products
+2025-03-03 17:58:31,571 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:58:31,572 - INFO - Starting test: test_product_categories
+2025-03-03 17:58:31,573 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:58:31,918 - INFO - Finishing test: test_product_categories
+2025-03-03 17:58:31,919 - INFO - Starting test: test_product_structure
+2025-03-03 17:58:31,919 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:58:32,220 - INFO - Finishing test: test_product_structure
+2025-03-03 17:58:32,222 - INFO - Starting test: test_price_ranges
+2025-03-03 17:58:32,222 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:58:32,492 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:58:32,493 - INFO - Starting test: test_products_by_category
+2025-03-03 17:58:32,494 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:58:32,862 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:58:32,863 - INFO - Starting test: test_get_single_product
+2025-03-03 17:58:32,864 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:58:33,210 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:58:33,212 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:58:33,214 - INFO - Starting test: test_create_product
+2025-03-03 17:58:33,215 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:58:33,511 - INFO - Successfully created product: Test Product
+2025-03-03 17:58:33,513 - INFO - Finishing test: test_create_product
+2025-03-03 17:58:33,514 - INFO - Starting test: test_delete_product
+2025-03-03 17:58:33,515 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:58:33,814 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 17:58:33,814 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:58:34,253 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:58:34,253 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:58:34,569 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 17:58:34,573 - INFO - Finishing test: test_delete_product
+2025-03-03 17:59:11,121 - INFO - Starting test: test_get_all_products
+2025-03-03 17:59:11,122 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:59:11,438 - INFO - Successfully retrieved 20 products
+2025-03-03 17:59:11,440 - INFO - Finishing test: test_get_all_products
+2025-03-03 17:59:11,441 - INFO - Starting test: test_product_categories
+2025-03-03 17:59:11,442 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:59:11,751 - INFO - Finishing test: test_product_categories
+2025-03-03 17:59:11,752 - INFO - Starting test: test_product_structure
+2025-03-03 17:59:11,753 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:59:12,019 - INFO - Finishing test: test_product_structure
+2025-03-03 17:59:12,022 - INFO - Starting test: test_price_ranges
+2025-03-03 17:59:12,022 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 17:59:12,285 - INFO - Finishing test: test_price_ranges
+2025-03-03 17:59:12,287 - INFO - Starting test: test_products_by_category
+2025-03-03 17:59:12,287 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 17:59:12,691 - INFO - Finishing test: test_products_by_category
+2025-03-03 17:59:12,693 - INFO - Starting test: test_get_single_product
+2025-03-03 17:59:12,693 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:59:13,038 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 17:59:13,041 - INFO - Finishing test: test_get_single_product
+2025-03-03 17:59:13,042 - INFO - Starting test: test_create_product
+2025-03-03 17:59:13,043 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 17:59:13,306 - INFO - Successfully created product: Test Product
+2025-03-03 17:59:13,308 - INFO - Finishing test: test_create_product
+2025-03-03 17:59:13,309 - INFO - Starting test: test_delete_product
+2025-03-03 17:59:13,310 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:59:13,607 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 17:59:13,607 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 17:59:14,017 - INFO - Successfully deleted product with ID 1
+2025-03-03 17:59:14,017 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 17:59:14,313 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 17:59:14,319 - INFO - Finishing test: test_delete_product
+2025-03-03 18:00:42,409 - INFO - Starting test: test_get_all_products
+2025-03-03 18:00:42,410 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:00:42,712 - INFO - Successfully retrieved 20 products
+2025-03-03 18:00:42,713 - INFO - First 5 product titles: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket, Mens Casual Slim Fit, John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+2025-03-03 18:00:42,713 - INFO - All product titles: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket, Mens Casual Slim Fit, John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet, Solid Gold Petite Micropave , White Gold Plated Princess, Pierced Owl Rose Gold Plated Stainless Steel Double, WD 2TB Elements Portable External Hard Drive - USB 3.0 , SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s, Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5, WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive, Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin, Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED , BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats, Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket, Rain Jacket Women Windbreaker Striped Climbing Raincoats, MBJ Women's Solid Short Sleeve Boat Neck V , Opna Women's Short Sleeve Moisture, DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:00:42,714 - INFO - Complete product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:00:42,718 - INFO - Finishing test: test_get_all_products
+2025-03-03 18:00:42,719 - INFO - Starting test: test_product_categories
+2025-03-03 18:00:42,720 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:00:43,023 - INFO - Finishing test: test_product_categories
+2025-03-03 18:00:43,025 - INFO - Starting test: test_product_structure
+2025-03-03 18:00:43,025 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:00:43,364 - INFO - Finishing test: test_product_structure
+2025-03-03 18:00:43,365 - INFO - Starting test: test_price_ranges
+2025-03-03 18:00:43,366 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:00:43,701 - INFO - Finishing test: test_price_ranges
+2025-03-03 18:00:43,702 - INFO - Starting test: test_products_by_category
+2025-03-03 18:00:43,703 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 18:00:44,154 - INFO - Finishing test: test_products_by_category
+2025-03-03 18:00:44,155 - INFO - Starting test: test_get_single_product
+2025-03-03 18:00:44,155 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:00:44,470 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 18:00:44,472 - INFO - Finishing test: test_get_single_product
+2025-03-03 18:00:44,474 - INFO - Starting test: test_create_product
+2025-03-03 18:00:44,475 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 18:00:44,748 - INFO - Successfully created product: Test Product
+2025-03-03 18:00:44,750 - INFO - Finishing test: test_create_product
+2025-03-03 18:00:44,752 - INFO - Starting test: test_delete_product
+2025-03-03 18:00:44,752 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:00:45,023 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 18:00:45,024 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 18:00:45,412 - INFO - Successfully deleted product with ID 1
+2025-03-03 18:00:45,412 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:00:45,697 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 18:00:45,701 - INFO - Finishing test: test_delete_product
+2025-03-03 18:06:45,719 - INFO - Starting test: test_get_all_products
+2025-03-03 18:06:45,719 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:06:46,116 - INFO - Successfully retrieved 20 products
+2025-03-03 18:06:46,117 - INFO - First 5 product titles: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket, Mens Casual Slim Fit, John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+2025-03-03 18:06:46,117 - INFO - All product titles: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket, Mens Casual Slim Fit, John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet, Solid Gold Petite Micropave , White Gold Plated Princess, Pierced Owl Rose Gold Plated Stainless Steel Double, WD 2TB Elements Portable External Hard Drive - USB 3.0 , SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s, Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5, WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive, Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin, Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED , BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats, Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket, Rain Jacket Women Windbreaker Striped Climbing Raincoats, MBJ Women's Solid Short Sleeve Boat Neck V , Opna Women's Short Sleeve Moisture, DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:06:46,118 - INFO - Complete product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:06:46,121 - INFO - Finishing test: test_get_all_products
+2025-03-03 18:06:46,122 - INFO - Starting test: test_product_categories
+2025-03-03 18:06:46,123 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:06:46,432 - INFO - Finishing test: test_product_categories
+2025-03-03 18:06:46,434 - INFO - Starting test: test_product_structure
+2025-03-03 18:06:46,434 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:06:46,735 - INFO - Finishing test: test_product_structure
+2025-03-03 18:06:46,737 - INFO - Starting test: test_price_ranges
+2025-03-03 18:06:46,738 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:06:47,041 - INFO - Finishing test: test_price_ranges
+2025-03-03 18:06:47,042 - INFO - Starting test: test_products_by_category
+2025-03-03 18:06:47,043 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 18:06:47,445 - INFO - Finishing test: test_products_by_category
+2025-03-03 18:06:47,446 - INFO - Starting test: test_get_single_product
+2025-03-03 18:06:47,447 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:06:47,740 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 18:06:47,742 - INFO - Finishing test: test_get_single_product
+2025-03-03 18:06:47,743 - INFO - Starting test: test_create_product
+2025-03-03 18:06:47,744 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 18:06:48,017 - INFO - Successfully created product: Test Product
+2025-03-03 18:06:48,020 - INFO - Finishing test: test_create_product
+2025-03-03 18:06:48,021 - INFO - Starting test: test_delete_product
+2025-03-03 18:06:48,022 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:06:49,049 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 18:06:49,050 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 18:06:49,456 - INFO - Successfully deleted product with ID 1
+2025-03-03 18:06:49,457 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:06:49,736 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 18:06:49,741 - INFO - Finishing test: test_delete_product
+2025-03-03 18:12:42,037 - INFO - Starting test: test_get_all_products
+2025-03-03 18:12:42,039 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:12:42,483 - INFO - Successfully retrieved 20 products
+2025-03-03 18:12:42,483 - INFO - First 5 product titles: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket, Mens Casual Slim Fit, John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+2025-03-03 18:12:42,484 - INFO - All product titles: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket, Mens Casual Slim Fit, John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet, Solid Gold Petite Micropave , White Gold Plated Princess, Pierced Owl Rose Gold Plated Stainless Steel Double, WD 2TB Elements Portable External Hard Drive - USB 3.0 , SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s, Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5, WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive, Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin, Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED , BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats, Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket, Rain Jacket Women Windbreaker Striped Climbing Raincoats, MBJ Women's Solid Short Sleeve Boat Neck V , Opna Women's Short Sleeve Moisture, DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:12:42,484 - INFO - Complete product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:12:42,488 - INFO - Finishing test: test_get_all_products
+2025-03-03 18:12:42,489 - INFO - Starting test: test_product_categories
+2025-03-03 18:12:42,490 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:12:42,834 - INFO - Retrieved categories: {'jewelery', "men's clothing", 'electronics', "women's clothing"}
+2025-03-03 18:12:42,837 - INFO - Finishing test: test_product_categories
+2025-03-03 18:12:42,838 - INFO - Starting test: test_product_structure
+2025-03-03 18:12:42,839 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:12:43,140 - INFO - Finishing test: test_product_structure
+2025-03-03 18:12:43,140 - INFO - Starting test: test_price_ranges
+2025-03-03 18:12:43,141 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:12:43,449 - INFO - Finishing test: test_price_ranges
+2025-03-03 18:12:43,450 - INFO - Starting test: test_products_by_category
+2025-03-03 18:12:43,452 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 18:12:43,893 - INFO - Finishing test: test_products_by_category
+2025-03-03 18:12:43,894 - INFO - Starting test: test_get_single_product
+2025-03-03 18:12:43,895 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:12:44,153 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 18:12:44,154 - INFO - Finishing test: test_get_single_product
+2025-03-03 18:12:44,155 - INFO - Starting test: test_create_product
+2025-03-03 18:12:44,156 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 18:12:44,460 - INFO - Successfully created product: Test Product
+2025-03-03 18:12:44,462 - INFO - Finishing test: test_create_product
+2025-03-03 18:12:44,463 - INFO - Starting test: test_delete_product
+2025-03-03 18:12:44,464 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:12:44,758 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 18:12:44,759 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 18:12:45,149 - INFO - Successfully deleted product with ID 1
+2025-03-03 18:12:45,149 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:12:45,408 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 18:12:45,413 - INFO - Finishing test: test_delete_product
+2025-03-03 18:23:19,877 - INFO - Starting test: test_get_all_products
+2025-03-03 18:23:19,878 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:23:20,222 - INFO - Complete product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:23:20,226 - INFO - Finishing test: test_get_all_products
+2025-03-03 18:23:20,227 - INFO - Starting test: test_product_categories
+2025-03-03 18:23:20,227 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:23:20,555 - INFO - Expected: categories: {"women's clothing", 'electronics', 'jewelery', "men's clothing"}
+2025-03-03 18:23:20,556 - INFO - Actual: categories: {'electronics', "women's clothing", 'jewelery', "men's clothing"}
+2025-03-03 18:23:20,558 - INFO - Finishing test: test_product_categories
+2025-03-03 18:23:20,559 - INFO - Starting test: test_product_structure
+2025-03-03 18:23:20,560 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:23:20,860 - INFO - Checking if product has all required fields: {'title', 'description', 'rating', 'price', 'category', 'id', 'image'}
+2025-03-03 18:23:20,888 - INFO - Checking if rating contains 'rate' field
+2025-03-03 18:23:20,889 - INFO - Checking if rating contains 'count' field
+2025-03-03 18:23:20,891 - INFO - Checking if price ($109.95) is numeric
+2025-03-03 18:23:20,893 - INFO - Finishing test: test_product_structure
+2025-03-03 18:23:20,894 - INFO - Starting test: test_price_ranges
+2025-03-03 18:23:20,895 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:23:21,194 - INFO - Finishing test: test_price_ranges
+2025-03-03 18:23:21,195 - INFO - Starting test: test_products_by_category
+2025-03-03 18:23:21,196 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 18:23:21,588 - INFO - Finishing test: test_products_by_category
+2025-03-03 18:23:21,589 - INFO - Starting test: test_get_single_product
+2025-03-03 18:23:21,590 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:23:21,879 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 18:23:21,881 - INFO - Finishing test: test_get_single_product
+2025-03-03 18:23:21,882 - INFO - Starting test: test_create_product
+2025-03-03 18:23:21,883 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 18:23:22,217 - INFO - Successfully created product: Test Product
+2025-03-03 18:23:22,220 - INFO - Finishing test: test_create_product
+2025-03-03 18:23:22,221 - INFO - Starting test: test_delete_product
+2025-03-03 18:23:22,221 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:23:22,516 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 18:23:22,517 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 18:23:22,879 - INFO - Successfully deleted product with ID 1
+2025-03-03 18:23:22,880 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:23:23,184 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 18:23:23,189 - INFO - Finishing test: test_delete_product
+2025-03-03 18:24:10,915 - INFO - Starting test: test_get_all_products
+2025-03-03 18:24:10,915 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:24:11,392 - INFO - Complete product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:24:11,396 - INFO - Finishing test: test_get_all_products
+2025-03-03 18:24:11,397 - INFO - Starting test: test_product_categories
+2025-03-03 18:24:11,397 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:24:11,748 - INFO - Expected: categories: {'electronics', "men's clothing", 'jewelery', "women's clothing"}
+2025-03-03 18:24:11,749 - INFO - Actual: categories: {'electronics', "men's clothing", 'jewelery', "women's clothing"}
+2025-03-03 18:24:11,751 - INFO - Finishing test: test_product_categories
+2025-03-03 18:24:11,752 - INFO - Starting test: test_product_structure
+2025-03-03 18:24:11,753 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:24:12,095 - INFO - Checking if product has all required fields: {'description', 'id', 'price', 'image', 'title', 'category', 'rating'}
+2025-03-03 18:24:12,101 - INFO - Checking if rating contains 'rate' field
+2025-03-03 18:24:12,102 - INFO - Checking if rating contains 'count' field
+2025-03-03 18:24:12,104 - INFO - Checking if price ($109.95) is numeric
+2025-03-03 18:24:12,107 - INFO - Finishing test: test_product_structure
+2025-03-03 18:24:12,108 - INFO - Starting test: test_price_ranges
+2025-03-03 18:24:12,108 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:24:12,467 - INFO - Finishing test: test_price_ranges
+2025-03-03 18:24:12,468 - INFO - Starting test: test_products_by_category
+2025-03-03 18:24:12,468 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 18:24:12,869 - INFO - Finishing test: test_products_by_category
+2025-03-03 18:24:12,871 - INFO - Starting test: test_get_single_product
+2025-03-03 18:24:12,871 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:24:13,227 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 18:24:13,229 - INFO - Finishing test: test_get_single_product
+2025-03-03 18:24:13,230 - INFO - Starting test: test_create_product
+2025-03-03 18:24:13,231 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 18:24:13,520 - INFO - Successfully created product: Test Product
+2025-03-03 18:24:13,523 - INFO - Finishing test: test_create_product
+2025-03-03 18:24:13,524 - INFO - Starting test: test_delete_product
+2025-03-03 18:24:13,524 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:24:13,817 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 18:24:13,817 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 18:24:14,246 - INFO - Successfully deleted product with ID 1
+2025-03-03 18:24:14,247 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:24:14,585 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 18:24:14,590 - INFO - Finishing test: test_delete_product
+2025-03-03 18:25:17,846 - INFO - Starting test: test_get_all_products
+2025-03-03 18:25:17,847 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:25:18,242 - INFO - Complete product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-03 18:25:18,246 - INFO - Finishing test: test_get_all_products
+2025-03-03 18:25:18,247 - INFO - Starting test: test_product_categories
+2025-03-03 18:25:18,247 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:25:18,549 - INFO - Expected: categories: {"men's clothing", 'jewelery', 'electronics', "women's clothing"}
+2025-03-03 18:25:18,549 - INFO - Actual: categories: {"men's clothing", 'jewelery', 'electronics', "women's clothing"}
+2025-03-03 18:25:18,551 - INFO - Finishing test: test_product_categories
+2025-03-03 18:25:18,552 - INFO - Starting test: test_product_structure
+2025-03-03 18:25:18,553 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:25:18,886 - INFO - Checking if product has all required fields: {'description', 'id', 'rating', 'category', 'image', 'title', 'price'}
+2025-03-03 18:25:18,887 - INFO - [PASS] All required fields present
+2025-03-03 18:25:18,887 - INFO - Checking if rating contains 'rate' field
+2025-03-03 18:25:18,887 - INFO - [PASS] Rating contains 'rate' field
+2025-03-03 18:25:18,888 - INFO - Checking if rating contains 'count' field
+2025-03-03 18:25:18,888 - INFO - [PASS] Rating contains 'count' field
+2025-03-03 18:25:18,888 - INFO - Checking if price ($109.95) is numeric
+2025-03-03 18:25:18,889 - INFO - [PASS] Price is numeric
+2025-03-03 18:25:18,890 - INFO - Finishing test: test_product_structure
+2025-03-03 18:25:18,891 - INFO - Starting test: test_price_ranges
+2025-03-03 18:25:18,892 - INFO - GET request to https://fakestoreapi.com/products
+2025-03-03 18:25:19,205 - INFO - Finishing test: test_price_ranges
+2025-03-03 18:25:19,206 - INFO - Starting test: test_products_by_category
+2025-03-03 18:25:19,207 - INFO - GET request to https://fakestoreapi.com/products/category/electronics
+2025-03-03 18:25:19,605 - INFO - Finishing test: test_products_by_category
+2025-03-03 18:25:19,606 - INFO - Starting test: test_get_single_product
+2025-03-03 18:25:19,607 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:25:19,906 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-03 18:25:19,908 - INFO - Finishing test: test_get_single_product
+2025-03-03 18:25:19,909 - INFO - Starting test: test_create_product
+2025-03-03 18:25:19,910 - INFO - POST request to https://fakestoreapi.com/products
+2025-03-03 18:25:20,240 - INFO - Successfully created product: Test Product
+2025-03-03 18:25:20,241 - INFO - Finishing test: test_create_product
+2025-03-03 18:25:20,242 - INFO - Starting test: test_delete_product
+2025-03-03 18:25:20,243 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:25:20,516 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-03 18:25:20,517 - INFO - DELETE request to https://fakestoreapi.com/products/1
+2025-03-03 18:25:20,934 - INFO - Successfully deleted product with ID 1
+2025-03-03 18:25:20,939 - INFO - GET request to https://fakestoreapi.com/products/1
+2025-03-03 18:25:21,234 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-03 18:25:21,238 - INFO - Finishing test: test_delete_product
+2025-03-04 10:08:17,190 - INFO - Starting test: test_get_all_products
+2025-03-04 10:08:17,191 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:08:17,597 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:08:17,597 - INFO - Actual: product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-04 10:08:17,601 - INFO - Finishing test: test_get_all_products
+2025-03-04 10:08:17,602 - INFO - Starting test: test_product_categories
+2025-03-04 10:08:17,603 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:08:17,881 - INFO - Expected: categories: {'electronics', 'jewelery', "men's clothing", "women's clothing"}
+2025-03-04 10:08:17,882 - INFO - Actual: categories: {'jewelery', "men's clothing", 'electronics', "women's clothing"}
+2025-03-04 10:08:17,884 - INFO - Finishing test: test_product_categories
+2025-03-04 10:08:17,886 - INFO - Starting test: test_product_structure
+2025-03-04 10:08:17,887 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:08:18,189 - INFO - Checking if product has all required fields: {'title', 'price', 'category', 'description', 'image', 'id', 'rating'}
+2025-03-04 10:08:18,189 - INFO - [PASS] All required fields present
+2025-03-04 10:08:18,190 - INFO - Checking if rating contains 'rate' field
+2025-03-04 10:08:18,190 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 10:08:18,190 - INFO - Checking if rating contains 'count' field
+2025-03-04 10:08:18,190 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 10:08:18,191 - INFO - Checking if price ($109.95) is numeric
+2025-03-04 10:08:18,191 - INFO - [PASS] Price is numeric
+2025-03-04 10:08:18,193 - INFO - Finishing test: test_product_structure
+2025-03-04 10:08:18,194 - INFO - Starting test: test_price_ranges
+2025-03-04 10:08:18,195 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:08:18,547 - INFO - Finishing test: test_price_ranges
+2025-03-04 10:08:18,549 - INFO - Starting test: test_products_by_category
+2025-03-04 10:08:18,549 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 10:08:18,928 - INFO - Finishing test: test_products_by_category
+2025-03-04 10:08:18,929 - INFO - Starting test: test_get_single_product
+2025-03-04 10:08:18,930 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:08:19,233 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:08:19,233 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 10:08:19,234 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 10:08:19,234 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-04 10:08:19,236 - INFO - Finishing test: test_get_single_product
+2025-03-04 10:08:19,237 - INFO - Starting test: test_create_product
+2025-03-04 10:08:19,237 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 10:08:19,551 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:08:19,551 - INFO - Successfully created product: Test Product
+2025-03-04 10:08:19,554 - INFO - Finishing test: test_create_product
+2025-03-04 10:08:19,554 - INFO - Starting test: test_delete_product
+2025-03-04 10:08:19,555 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:08:19,860 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:08:19,860 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-04 10:08:19,861 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:08:20,272 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:08:20,272 - INFO - Successfully deleted product with ID 1
+2025-03-04 10:08:20,273 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:08:20,590 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-04 10:08:20,594 - INFO - Finishing test: test_delete_product
+2025-03-04 10:13:33,591 - INFO - Starting test: test_get_all_products
+2025-03-04 10:13:33,592 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:13:33,995 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:13:33,996 - INFO - [PASS] Response contains a list of products
+2025-03-04 10:13:33,996 - INFO - Actual: product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-04 10:13:34,000 - INFO - Finishing test: test_get_all_products
+2025-03-04 10:13:34,001 - INFO - Starting test: test_product_categories
+2025-03-04 10:13:34,002 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:13:34,311 - INFO - Expected: categories: {'electronics', "men's clothing", 'jewelery', "women's clothing"}
+2025-03-04 10:13:34,311 - INFO - Actual: categories: {'electronics', "men's clothing", 'jewelery', "women's clothing"}
+2025-03-04 10:13:34,313 - INFO - Finishing test: test_product_categories
+2025-03-04 10:13:34,314 - INFO - Starting test: test_product_structure
+2025-03-04 10:13:34,315 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:13:34,656 - INFO - Checking if product has all required fields: {'description', 'price', 'title', 'rating', 'id', 'image', 'category'}
+2025-03-04 10:13:34,657 - INFO - [PASS] All required fields present
+2025-03-04 10:13:34,657 - INFO - Checking if rating contains 'rate' field
+2025-03-04 10:13:34,657 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 10:13:34,658 - INFO - Checking if rating contains 'count' field
+2025-03-04 10:13:34,658 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 10:13:34,660 - INFO - Finishing test: test_product_structure
+2025-03-04 10:13:34,661 - INFO - Starting test: test_price_ranges
+2025-03-04 10:13:34,661 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:13:35,055 - INFO - Finishing test: test_price_ranges
+2025-03-04 10:13:35,056 - INFO - Starting test: test_products_by_category
+2025-03-04 10:13:35,057 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 10:13:35,516 - INFO - Finishing test: test_products_by_category
+2025-03-04 10:13:35,518 - INFO - Starting test: test_get_single_product
+2025-03-04 10:13:35,518 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:13:35,832 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:13:35,832 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 10:13:35,833 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 10:13:35,833 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-04 10:13:35,835 - INFO - Finishing test: test_get_single_product
+2025-03-04 10:13:35,836 - INFO - Starting test: test_create_product
+2025-03-04 10:13:35,837 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 10:13:36,100 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:13:36,101 - INFO - Successfully created product: Test Product
+2025-03-04 10:13:36,103 - INFO - Finishing test: test_create_product
+2025-03-04 10:13:36,104 - INFO - Starting test: test_delete_product
+2025-03-04 10:13:36,105 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:13:36,461 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:13:36,461 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-04 10:13:36,462 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:13:37,403 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:13:37,404 - INFO - Successfully deleted product with ID 1
+2025-03-04 10:13:37,404 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:13:37,762 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-04 10:13:37,767 - INFO - Finishing test: test_delete_product
+2025-03-04 10:23:48,848 - INFO - Starting test: test_get_all_products
+2025-03-04 10:23:48,848 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:23:49,284 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:23:49,284 - INFO - [PASS] Response contains a list of products
+2025-03-04 10:23:49,284 - INFO - Actual: product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-04 10:23:49,288 - INFO - Finishing test: test_get_all_products
+2025-03-04 10:23:49,289 - INFO - Starting test: test_product_categories
+2025-03-04 10:23:49,289 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:23:49,576 - INFO - Expected: categories: {'jewelery', "women's clothing", "men's clothing", 'electronics'}
+2025-03-04 10:23:49,577 - INFO - Actual: categories: {'jewelery', "women's clothing", "men's clothing", 'electronics'}
+2025-03-04 10:23:49,579 - INFO - Finishing test: test_product_categories
+2025-03-04 10:23:49,580 - INFO - Starting test: test_product_structure
+2025-03-04 10:23:49,581 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:23:49,930 - INFO - Checking if product has all required fields: {'price', 'title', 'category', 'rating', 'id', 'image', 'description'}
+2025-03-04 10:23:49,930 - INFO - [PASS] All required fields present
+2025-03-04 10:23:49,931 - INFO - Checking if rating contains 'rate' field
+2025-03-04 10:23:49,931 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 10:23:49,931 - INFO - Checking if rating contains 'count' field
+2025-03-04 10:23:49,931 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 10:23:49,933 - INFO - Finishing test: test_product_structure
+2025-03-04 10:23:49,934 - INFO - Starting test: test_price_ranges
+2025-03-04 10:23:49,934 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:23:50,247 - INFO - Finishing test: test_price_ranges
+2025-03-04 10:23:50,248 - INFO - Starting test: test_products_by_category
+2025-03-04 10:23:50,248 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 10:23:50,675 - INFO - Finishing test: test_products_by_category
+2025-03-04 10:23:50,676 - INFO - Starting test: test_get_single_product
+2025-03-04 10:23:50,676 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:23:50,945 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:23:50,946 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 10:23:50,946 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 10:23:50,946 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-04 10:23:50,948 - INFO - Finishing test: test_get_single_product
+2025-03-04 10:23:50,949 - INFO - Starting test: test_create_product
+2025-03-04 10:23:50,950 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 10:23:51,226 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:23:51,227 - INFO - Successfully created product: Test Product
+2025-03-04 10:23:51,229 - INFO - Finishing test: test_create_product
+2025-03-04 10:23:51,230 - INFO - Starting test: test_delete_product
+2025-03-04 10:23:51,230 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:23:51,495 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:23:51,495 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-04 10:23:51,496 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:23:51,867 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:23:51,867 - INFO - Successfully deleted product with ID 1
+2025-03-04 10:23:51,867 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:23:52,178 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-04 10:23:52,182 - INFO - Finishing test: test_delete_product
+2025-03-04 10:24:29,247 - INFO - Starting test: test_get_all_products
+2025-03-04 10:24:29,248 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:24:29,603 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:24:29,604 - INFO - [PASS] Response contains a list of products
+2025-03-04 10:24:29,604 - INFO - Actual: product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-04 10:24:29,607 - INFO - Finishing test: test_get_all_products
+2025-03-04 10:24:29,608 - INFO - Starting test: test_product_categories
+2025-03-04 10:24:29,609 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:24:29,926 - INFO - Expected: categories: {"women's clothing", "men's clothing", 'jewelery', 'electronics'}
+2025-03-04 10:24:29,926 - INFO - Actual: categories: {"women's clothing", "men's clothing", 'jewelery', 'electronics'}
+2025-03-04 10:24:29,928 - INFO - Finishing test: test_product_categories
+2025-03-04 10:24:29,929 - INFO - Starting test: test_product_structure
+2025-03-04 10:24:29,930 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:24:30,251 - INFO - Checking if product has all required fields: {'title', 'rating', 'category', 'description', 'price', 'id', 'image'}
+2025-03-04 10:24:30,252 - INFO - [PASS] All required fields present
+2025-03-04 10:24:30,252 - INFO - Checking if rating contains 'rate' field
+2025-03-04 10:24:30,252 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 10:24:30,253 - INFO - Checking if rating contains 'count' field
+2025-03-04 10:24:30,253 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 10:24:30,255 - INFO - Finishing test: test_product_structure
+2025-03-04 10:24:30,256 - INFO - Starting test: test_price_ranges
+2025-03-04 10:24:30,257 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 10:24:30,561 - INFO - Finishing test: test_price_ranges
+2025-03-04 10:24:30,562 - INFO - Starting test: test_products_by_category
+2025-03-04 10:24:30,563 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 10:24:30,987 - INFO - Finishing test: test_products_by_category
+2025-03-04 10:24:30,988 - INFO - Starting test: test_get_single_product
+2025-03-04 10:24:30,988 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:24:31,293 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:24:31,294 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 10:24:31,294 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 10:24:31,294 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-04 10:24:31,296 - INFO - Finishing test: test_get_single_product
+2025-03-04 10:24:31,297 - INFO - Starting test: test_create_product
+2025-03-04 10:24:31,298 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 10:24:31,569 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:24:31,569 - INFO - Successfully created product: Test Product
+2025-03-04 10:24:31,571 - INFO - Finishing test: test_create_product
+2025-03-04 10:24:31,572 - INFO - Starting test: test_delete_product
+2025-03-04 10:24:31,573 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:24:31,895 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:24:31,896 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-04 10:24:31,896 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:24:32,319 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 10:24:32,320 - INFO - Successfully deleted product with ID 1
+2025-03-04 10:24:32,320 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 10:24:32,583 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-04 10:24:32,587 - INFO - Finishing test: test_delete_product
+2025-03-04 13:42:02,867 - INFO - Starting test: test_get_all_products
+2025-03-04 13:42:02,868 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 13:42:03,381 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:42:03,382 - INFO - [PASS] Response contains a list of products
+2025-03-04 13:42:03,382 - INFO - Actual: product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-04 13:42:03,388 - INFO - Finishing test: test_get_all_products
+2025-03-04 13:42:03,390 - INFO - Starting test: test_product_categories
+2025-03-04 13:42:03,391 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 13:42:03,727 - INFO - Expected: categories: {"men's clothing", 'electronics', 'jewelery', "women's clothing"}
+2025-03-04 13:42:03,728 - INFO - Actual: categories: {"men's clothing", 'electronics', 'jewelery', "women's clothing"}
+2025-03-04 13:42:03,731 - INFO - Finishing test: test_product_categories
+2025-03-04 13:42:03,732 - INFO - Starting test: test_product_structure
+2025-03-04 13:42:03,733 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:42:04,078 - INFO - Checking if product has all required fields: {'price', 'category', 'title', 'image', 'rating', 'id', 'description'}
+2025-03-04 13:42:04,079 - INFO - [PASS] All required fields present
+2025-03-04 13:42:04,079 - INFO - Checking if rating contains 'rate' field
+2025-03-04 13:42:04,079 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 13:42:04,080 - INFO - Checking if rating contains 'count' field
+2025-03-04 13:42:04,080 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 13:42:04,083 - INFO - Finishing test: test_product_structure
+2025-03-04 13:42:04,084 - INFO - Starting test: test_price_ranges
+2025-03-04 13:42:04,085 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 13:42:04,381 - INFO - Finishing test: test_price_ranges
+2025-03-04 13:42:04,383 - INFO - Starting test: test_products_by_category
+2025-03-04 13:42:04,384 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 13:42:04,780 - INFO - Finishing test: test_products_by_category
+2025-03-04 13:42:04,782 - INFO - Starting test: test_get_single_product
+2025-03-04 13:42:04,783 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:42:05,137 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:42:05,138 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 13:42:05,138 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 13:42:05,139 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-04 13:42:05,142 - INFO - Finishing test: test_get_single_product
+2025-03-04 13:42:05,143 - INFO - Starting test: test_create_product
+2025-03-04 13:42:05,144 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 13:42:05,436 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:42:05,437 - INFO - Successfully created product: Test Product
+2025-03-04 13:42:05,439 - INFO - Finishing test: test_create_product
+2025-03-04 13:42:05,442 - INFO - Starting test: test_delete_product
+2025-03-04 13:42:05,442 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:42:05,751 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:42:05,752 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-04 13:42:05,752 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:42:06,162 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:42:06,162 - INFO - Successfully deleted product with ID 1
+2025-03-04 13:42:06,163 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:42:06,444 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-04 13:42:06,450 - INFO - Finishing test: test_delete_product
+2025-03-04 13:50:11,344 - INFO - Starting test: test_get_all_products
+2025-03-04 13:50:11,345 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 13:50:11,757 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:50:11,758 - INFO - [PASS] Response contains a list of products
+2025-03-04 13:50:11,759 - INFO - Actual: product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-04 13:50:11,765 - INFO - Finishing test: test_get_all_products
+2025-03-04 13:50:11,766 - INFO - Starting test: test_product_categories
+2025-03-04 13:50:11,767 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 13:50:12,084 - INFO - Expected: categories: {'electronics', "men's clothing", "women's clothing", 'jewelery'}
+2025-03-04 13:50:12,084 - INFO - Actual: categories: {"men's clothing", "women's clothing", 'electronics', 'jewelery'}
+2025-03-04 13:50:12,087 - INFO - Finishing test: test_product_categories
+2025-03-04 13:50:12,089 - INFO - Starting test: test_product_structure
+2025-03-04 13:50:12,090 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:50:12,460 - INFO - Checking if product has all required fields: {'rating', 'id', 'image', 'category', 'title', 'description', 'price'}
+2025-03-04 13:50:12,461 - INFO - [PASS] All required fields present
+2025-03-04 13:50:12,461 - INFO - Checking if rating contains 'rate' field
+2025-03-04 13:50:12,462 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 13:50:12,462 - INFO - Checking if rating contains 'count' field
+2025-03-04 13:50:12,463 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 13:50:12,466 - INFO - Finishing test: test_product_structure
+2025-03-04 13:50:12,467 - INFO - Starting test: test_price_ranges
+2025-03-04 13:50:12,468 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 13:50:12,790 - INFO - Finishing test: test_price_ranges
+2025-03-04 13:50:12,791 - INFO - Starting test: test_products_by_category
+2025-03-04 13:50:12,793 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 13:50:13,207 - INFO - Finishing test: test_products_by_category
+2025-03-04 13:50:13,208 - INFO - Starting test: test_get_single_product
+2025-03-04 13:50:13,209 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:50:13,527 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:50:13,527 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 13:50:13,528 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 13:50:13,528 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-04 13:50:13,531 - INFO - Finishing test: test_get_single_product
+2025-03-04 13:50:13,533 - INFO - Starting test: test_create_product
+2025-03-04 13:50:13,534 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 13:50:13,894 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:50:13,894 - INFO - Successfully created product: Test Product
+2025-03-04 13:50:13,897 - INFO - Finishing test: test_create_product
+2025-03-04 13:50:13,898 - INFO - Starting test: test_delete_product
+2025-03-04 13:50:13,898 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:50:14,222 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:50:14,223 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-04 13:50:14,223 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:50:14,642 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 13:50:14,643 - INFO - Successfully deleted product with ID 1
+2025-03-04 13:50:14,643 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 13:50:14,996 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-04 13:50:15,001 - INFO - Finishing test: test_delete_product
+2025-03-04 14:18:34,984 - INFO - Starting test: test_get_all_products
+2025-03-04 14:18:34,987 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 14:18:35,496 - INFO - Response time: 501.95 ms
+2025-03-04 14:18:35,497 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 14:18:35,497 - INFO - [PASS] Response contains a list of products
+2025-03-04 14:18:35,497 - INFO - Actual: product list:
+1. Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2. Mens Casual Premium Slim Fit T-Shirts 
+3. Mens Cotton Jacket
+4. Mens Casual Slim Fit
+5. John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+6. Solid Gold Petite Micropave 
+7. White Gold Plated Princess
+8. Pierced Owl Rose Gold Plated Stainless Steel Double
+9. WD 2TB Elements Portable External Hard Drive - USB 3.0 
+10. SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s
+11. Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+12. WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive
+13. Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin
+14. Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) â€“ Super Ultrawide Screen QLED 
+15. BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+16. Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket
+17. Rain Jacket Women Windbreaker Striped Climbing Raincoats
+18. MBJ Women's Solid Short Sleeve Boat Neck V 
+19. Opna Women's Short Sleeve Moisture
+20. DANVOUY Womens T Shirt Casual Cotton Short
+2025-03-04 14:18:35,501 - INFO - Finishing test: test_get_all_products
+2025-03-04 14:18:35,503 - INFO - Starting test: test_product_categories
+2025-03-04 14:18:35,504 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 14:18:35,795 - INFO - Response time: 290.97 ms
+2025-03-04 14:18:35,796 - INFO - Expected: categories: {'electronics', "women's clothing", "men's clothing", 'jewelery'}
+2025-03-04 14:18:35,796 - INFO - Actual: categories: {'electronics', "women's clothing", "men's clothing", 'jewelery'}
+2025-03-04 14:18:35,800 - INFO - Finishing test: test_product_categories
+2025-03-04 14:18:35,801 - INFO - Starting test: test_product_structure
+2025-03-04 14:18:35,802 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 14:18:36,115 - INFO - Response time: 312.61 ms
+2025-03-04 14:18:36,116 - INFO - Checking if product has all required fields: {'id', 'description', 'image', 'title', 'price', 'rating', 'category'}
+2025-03-04 14:18:36,116 - INFO - [PASS] All required fields present
+2025-03-04 14:18:36,117 - INFO - Checking if rating contains 'rate' field
+2025-03-04 14:18:36,117 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 14:18:36,118 - INFO - Checking if rating contains 'count' field
+2025-03-04 14:18:36,118 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 14:18:36,121 - INFO - Finishing test: test_product_structure
+2025-03-04 14:18:36,122 - INFO - Starting test: test_price_ranges
+2025-03-04 14:18:36,122 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 14:18:36,451 - INFO - Response time: 327.78 ms
+2025-03-04 14:18:36,456 - INFO - Finishing test: test_price_ranges
+2025-03-04 14:18:36,459 - INFO - Starting test: test_products_by_category
+2025-03-04 14:18:36,460 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 14:18:36,871 - INFO - Response time: 411.00 ms
+2025-03-04 14:18:36,874 - INFO - Finishing test: test_products_by_category
+2025-03-04 14:18:36,876 - INFO - Starting test: test_get_single_product
+2025-03-04 14:18:36,877 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 14:18:37,187 - INFO - Response time: 310.80 ms
+2025-03-04 14:18:37,188 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 14:18:37,188 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 14:18:37,188 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 14:18:37,189 - INFO - Successfully retrieved product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+2025-03-04 14:18:37,191 - INFO - Finishing test: test_get_single_product
+2025-03-04 14:18:37,193 - INFO - Starting test: test_create_product
+2025-03-04 14:18:37,194 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 14:18:37,474 - INFO - Response time: 279.36 ms
+2025-03-04 14:18:37,475 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 14:18:37,475 - INFO - Successfully created product: Test Product
+2025-03-04 14:18:37,478 - INFO - Finishing test: test_create_product
+2025-03-04 14:18:37,479 - INFO - Starting test: test_delete_product
+2025-03-04 14:18:37,480 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 14:18:37,797 - INFO - Response time: 316.15 ms
+2025-03-04 14:18:37,798 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 14:18:37,798 - INFO - About to delete product: ID=1, Title='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', Price=$109.95, Category='men's clothing'
+2025-03-04 14:18:37,798 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 14:18:38,894 - INFO - Response time: 1094.99 ms
+2025-03-04 14:18:38,894 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 14:18:38,895 - INFO - Successfully deleted product with ID 1
+2025-03-04 14:18:38,895 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 14:18:39,212 - INFO - Response time: 317.25 ms
+2025-03-04 14:18:39,212 - INFO - Note: fakestoreapi.com simulates deletion but doesn't actually remove data
+2025-03-04 14:18:39,218 - INFO - Finishing test: test_delete_product
+2025-03-04 14:18:39,219 - INFO - Starting test: test_api_response_time
+2025-03-04 14:18:39,220 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 14:18:39,561 - INFO - Response time: 339.59 ms
+2025-03-04 14:18:39,562 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 14:18:39,563 - INFO - [PASS] API response time is acceptable
+2025-03-04 14:18:39,563 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 14:18:39,848 - INFO - Response time: 285.41 ms
+2025-03-04 14:18:39,849 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 14:18:39,849 - INFO - [PASS] Single product (ID: 1) response time is acceptable
+2025-03-04 14:18:39,853 - INFO - Finishing test: test_api_response_time
+2025-03-04 23:51:27,747 - INFO - Starting test: test_get_all_products
+2025-03-04 23:51:27,748 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:51:28,078 - INFO - Response time: 329.98 ms
+2025-03-04 23:51:28,078 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:51:28,079 - INFO - [PASS] Response contains a list of products
+2025-03-04 23:51:28,079 - INFO - [PASS] Product list contains 20 items
+2025-03-04 23:51:28,079 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-04 23:51:28,081 - INFO - Finishing test: test_get_all_products
+2025-03-04 23:51:28,084 - INFO - Starting test: test_product_categories
+2025-03-04 23:51:28,084 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:51:28,435 - INFO - Response time: 350.37 ms
+2025-03-04 23:51:28,436 - INFO - [PASS] All expected categories found
+2025-03-04 23:51:28,438 - INFO - Finishing test: test_product_categories
+2025-03-04 23:51:28,441 - INFO - Starting test: test_product_structure
+2025-03-04 23:51:28,441 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:51:28,768 - INFO - Response time: 327.40 ms
+2025-03-04 23:51:28,768 - INFO - [PASS] Product contains required field: image
+2025-03-04 23:51:28,768 - INFO - [PASS] Product contains required field: description
+2025-03-04 23:51:28,769 - INFO - [PASS] Product contains required field: price
+2025-03-04 23:51:28,769 - INFO - [PASS] Product contains required field: rating
+2025-03-04 23:51:28,769 - INFO - [PASS] Product contains required field: id
+2025-03-04 23:51:28,769 - INFO - [PASS] Product contains required field: title
+2025-03-04 23:51:28,769 - INFO - [PASS] Product contains required field: category
+2025-03-04 23:51:28,769 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 23:51:28,770 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 23:51:28,772 - INFO - Finishing test: test_product_structure
+2025-03-04 23:51:28,773 - INFO - Starting test: test_price_validation
+2025-03-04 23:51:28,774 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:51:29,137 - INFO - Response time: 363.52 ms
+2025-03-04 23:51:29,137 - INFO - [PASS] All prices are positive
+2025-03-04 23:51:29,138 - INFO - [PASS] All prices are below $1000
+2025-03-04 23:51:29,141 - INFO - Finishing test: test_price_validation
+2025-03-04 23:51:29,141 - INFO - Starting test: test_products_by_category
+2025-03-04 23:51:29,142 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 23:51:29,544 - INFO - Response time: 401.55 ms
+2025-03-04 23:51:29,545 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:51:29,545 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:51:29,545 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:51:29,546 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:51:29,546 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:51:29,546 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:51:29,546 - INFO - [PASS] Found 6 electronics products
+2025-03-04 23:51:29,548 - INFO - Finishing test: test_products_by_category
+2025-03-04 23:51:29,550 - INFO - Starting test: test_get_single_product
+2025-03-04 23:51:29,550 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:51:29,863 - INFO - Response time: 313.45 ms
+2025-03-04 23:51:29,864 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:51:29,864 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:51:29,865 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 23:51:29,867 - INFO - Finishing test: test_get_single_product
+2025-03-04 23:51:29,868 - INFO - Starting test: test_create_product
+2025-03-04 23:51:29,869 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:51:30,178 - INFO - Response time: 308.65 ms
+2025-03-04 23:51:30,178 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:51:30,178 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:51:30,179 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-04 23:51:30,181 - INFO - Finishing test: test_create_product
+2025-03-04 23:51:30,182 - INFO - Starting test: test_delete_product
+2025-03-04 23:51:30,183 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:51:30,498 - INFO - Response time: 315.17 ms
+2025-03-04 23:51:30,499 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:51:30,499 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:51:30,947 - INFO - Response time: 447.43 ms
+2025-03-04 23:51:30,947 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:51:30,951 - INFO - Finishing test: test_delete_product
+2025-03-04 23:51:30,952 - INFO - Starting test: test_api_response_time
+2025-03-04 23:51:30,952 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:51:31,255 - INFO - Response time: 302.16 ms
+2025-03-04 23:51:31,257 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:51:31,257 - INFO - [PASS] Response time 302.16 ms is within limit of 1000 ms
+2025-03-04 23:51:31,258 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:51:31,608 - INFO - Response time: 350.42 ms
+2025-03-04 23:51:31,608 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:51:31,609 - INFO - [PASS] Response time 350.42 ms is within limit of 500 ms
+2025-03-04 23:51:31,613 - INFO - Finishing test: test_api_response_time
+2025-03-04 23:51:31,614 - INFO - Starting test: test_get_nonexistent_product
+2025-03-04 23:51:31,614 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-04 23:51:31,884 - INFO - Response time: 268.64 ms
+2025-03-04 23:51:31,887 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-04 23:51:31,888 - INFO - Starting test: test_create_product_invalid_data
+2025-03-04 23:51:31,888 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:51:32,191 - INFO - Response time: 301.54 ms
+2025-03-04 23:51:32,192 - ERROR - [FAIL] API accepted invalid data without validation
+2025-03-04 23:51:32,273 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-04 23:54:06,487 - INFO - Starting test: test_get_all_products
+2025-03-04 23:54:06,488 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:54:06,894 - INFO - Response time: 404.74 ms
+2025-03-04 23:54:06,895 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:54:06,896 - INFO - [PASS] Response contains a list of products
+2025-03-04 23:54:06,896 - INFO - [PASS] Product list contains 20 items
+2025-03-04 23:54:06,896 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-04 23:54:06,898 - INFO - Finishing test: test_get_all_products
+2025-03-04 23:54:06,899 - INFO - Starting test: test_product_categories
+2025-03-04 23:54:06,899 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:54:07,247 - INFO - Response time: 346.05 ms
+2025-03-04 23:54:07,247 - INFO - [PASS] All expected categories found
+2025-03-04 23:54:07,249 - INFO - Finishing test: test_product_categories
+2025-03-04 23:54:07,250 - INFO - Starting test: test_product_structure
+2025-03-04 23:54:07,250 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:54:07,558 - INFO - Response time: 307.97 ms
+2025-03-04 23:54:07,559 - INFO - [PASS] Product contains required field: category
+2025-03-04 23:54:07,559 - INFO - [PASS] Product contains required field: description
+2025-03-04 23:54:07,560 - INFO - [PASS] Product contains required field: id
+2025-03-04 23:54:07,560 - INFO - [PASS] Product contains required field: rating
+2025-03-04 23:54:07,560 - INFO - [PASS] Product contains required field: image
+2025-03-04 23:54:07,560 - INFO - [PASS] Product contains required field: price
+2025-03-04 23:54:07,561 - INFO - [PASS] Product contains required field: title
+2025-03-04 23:54:07,561 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 23:54:07,561 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 23:54:07,563 - INFO - Finishing test: test_product_structure
+2025-03-04 23:54:07,564 - INFO - Starting test: test_price_validation
+2025-03-04 23:54:07,565 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:54:07,874 - INFO - Response time: 305.95 ms
+2025-03-04 23:54:07,874 - INFO - [PASS] All prices are positive
+2025-03-04 23:54:07,875 - INFO - [PASS] All prices are below $1000
+2025-03-04 23:54:07,877 - INFO - Finishing test: test_price_validation
+2025-03-04 23:54:07,878 - INFO - Starting test: test_products_by_category
+2025-03-04 23:54:07,879 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 23:54:08,295 - INFO - Response time: 415.78 ms
+2025-03-04 23:54:08,296 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:54:08,296 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:54:08,296 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:54:08,297 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:54:08,297 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:54:08,297 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:54:08,297 - INFO - [PASS] Found 6 electronics products
+2025-03-04 23:54:08,298 - INFO - Finishing test: test_products_by_category
+2025-03-04 23:54:08,300 - INFO - Starting test: test_get_single_product
+2025-03-04 23:54:08,301 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:54:08,610 - INFO - Response time: 309.61 ms
+2025-03-04 23:54:08,612 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:54:08,612 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:54:08,612 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 23:54:08,614 - INFO - Finishing test: test_get_single_product
+2025-03-04 23:54:08,616 - INFO - Starting test: test_create_product
+2025-03-04 23:54:08,616 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:54:08,929 - INFO - Response time: 312.00 ms
+2025-03-04 23:54:08,929 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:54:08,930 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:54:08,930 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-04 23:54:08,932 - INFO - Finishing test: test_create_product
+2025-03-04 23:54:08,933 - INFO - Starting test: test_delete_product
+2025-03-04 23:54:08,934 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:54:09,279 - INFO - Response time: 343.83 ms
+2025-03-04 23:54:09,279 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:54:09,279 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:54:09,680 - INFO - Response time: 399.37 ms
+2025-03-04 23:54:09,681 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:54:09,685 - INFO - Finishing test: test_delete_product
+2025-03-04 23:54:09,686 - INFO - Starting test: test_api_response_time
+2025-03-04 23:54:09,687 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:54:10,014 - INFO - Response time: 327.66 ms
+2025-03-04 23:54:10,014 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:54:10,015 - INFO - [PASS] Response time 327.66 ms is within limit of 1000 ms
+2025-03-04 23:54:10,015 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:54:10,318 - INFO - Response time: 302.36 ms
+2025-03-04 23:54:10,319 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:54:10,319 - INFO - [PASS] Response time 302.36 ms is within limit of 500 ms
+2025-03-04 23:54:10,323 - INFO - Finishing test: test_api_response_time
+2025-03-04 23:54:10,324 - INFO - Starting test: test_get_nonexistent_product
+2025-03-04 23:54:10,325 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-04 23:54:10,684 - INFO - Response time: 359.45 ms
+2025-03-04 23:54:10,687 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-04 23:54:10,688 - INFO - Starting test: test_create_product_invalid_data
+2025-03-04 23:54:10,689 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:54:11,051 - INFO - Response time: 361.87 ms
+2025-03-04 23:54:11,051 - ERROR - [FAIL] API accepted invalid data without validation
+2025-03-04 23:54:11,124 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-04 23:55:55,314 - INFO - Starting test: test_get_all_products
+2025-03-04 23:55:55,315 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:55:55,760 - INFO - Response time: 445.21 ms
+2025-03-04 23:55:55,761 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:55:55,761 - INFO - [PASS] Response contains a list of products
+2025-03-04 23:55:55,762 - INFO - [PASS] Product list contains 20 items
+2025-03-04 23:55:55,762 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-04 23:55:55,764 - INFO - Finishing test: test_get_all_products
+2025-03-04 23:55:55,765 - INFO - Starting test: test_product_categories
+2025-03-04 23:55:55,766 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:55:56,117 - INFO - Response time: 350.89 ms
+2025-03-04 23:55:56,117 - INFO - [PASS] All expected categories found
+2025-03-04 23:55:56,119 - INFO - Finishing test: test_product_categories
+2025-03-04 23:55:56,120 - INFO - Starting test: test_product_structure
+2025-03-04 23:55:56,122 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:55:56,557 - INFO - Response time: 434.91 ms
+2025-03-04 23:55:56,557 - INFO - [PASS] Product contains required field: category
+2025-03-04 23:55:56,558 - INFO - [PASS] Product contains required field: image
+2025-03-04 23:55:56,558 - INFO - [PASS] Product contains required field: id
+2025-03-04 23:55:56,558 - INFO - [PASS] Product contains required field: description
+2025-03-04 23:55:56,558 - INFO - [PASS] Product contains required field: rating
+2025-03-04 23:55:56,558 - INFO - [PASS] Product contains required field: title
+2025-03-04 23:55:56,559 - INFO - [PASS] Product contains required field: price
+2025-03-04 23:55:56,559 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 23:55:56,559 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 23:55:56,561 - INFO - Finishing test: test_product_structure
+2025-03-04 23:55:56,563 - INFO - Starting test: test_price_validation
+2025-03-04 23:55:56,563 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:55:56,912 - INFO - Response time: 347.85 ms
+2025-03-04 23:55:56,913 - INFO - [PASS] All prices are positive
+2025-03-04 23:55:56,913 - INFO - [PASS] All prices are below $1000
+2025-03-04 23:55:56,915 - INFO - Finishing test: test_price_validation
+2025-03-04 23:55:56,916 - INFO - Starting test: test_products_by_category
+2025-03-04 23:55:56,916 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 23:55:57,284 - INFO - Response time: 367.61 ms
+2025-03-04 23:55:57,285 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:55:57,285 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:55:57,286 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:55:57,286 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:55:57,286 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:55:57,286 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:55:57,286 - INFO - [PASS] Found 6 electronics products
+2025-03-04 23:55:57,289 - INFO - Finishing test: test_products_by_category
+2025-03-04 23:55:57,290 - INFO - Starting test: test_get_single_product
+2025-03-04 23:55:57,291 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:55:57,559 - INFO - Response time: 268.67 ms
+2025-03-04 23:55:57,560 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:55:57,560 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:55:57,560 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 23:55:57,563 - INFO - Finishing test: test_get_single_product
+2025-03-04 23:55:57,564 - INFO - Starting test: test_create_product
+2025-03-04 23:55:57,565 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:55:57,911 - INFO - Response time: 345.49 ms
+2025-03-04 23:55:57,912 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:55:57,912 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:55:57,912 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-04 23:55:57,914 - INFO - Finishing test: test_create_product
+2025-03-04 23:55:57,915 - INFO - Starting test: test_delete_product
+2025-03-04 23:55:57,916 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:55:58,272 - INFO - Response time: 355.53 ms
+2025-03-04 23:55:58,272 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:55:58,272 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:55:58,649 - INFO - Response time: 376.44 ms
+2025-03-04 23:55:58,650 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:55:58,654 - INFO - Finishing test: test_delete_product
+2025-03-04 23:55:58,655 - INFO - Starting test: test_api_response_time
+2025-03-04 23:55:58,656 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:55:59,002 - INFO - Response time: 346.19 ms
+2025-03-04 23:55:59,002 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:55:59,003 - INFO - [PASS] Response time 346.19 ms is within limit of 1000 ms
+2025-03-04 23:55:59,003 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:55:59,333 - INFO - Response time: 330.13 ms
+2025-03-04 23:55:59,334 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:55:59,334 - INFO - [PASS] Response time 330.13 ms is within limit of 500 ms
+2025-03-04 23:55:59,338 - INFO - Finishing test: test_api_response_time
+2025-03-04 23:55:59,339 - INFO - Starting test: test_get_nonexistent_product
+2025-03-04 23:55:59,340 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-04 23:55:59,669 - INFO - Response time: 328.76 ms
+2025-03-04 23:55:59,671 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-04 23:55:59,673 - INFO - Starting test: test_create_product_invalid_data
+2025-03-04 23:55:59,673 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:55:59,986 - INFO - Response time: 313.63 ms
+2025-03-04 23:55:59,987 - ERROR - [FAIL] API accepted invalid data without validation
+2025-03-04 23:56:00,093 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-04 23:57:29,900 - INFO - Starting test: test_get_all_products
+2025-03-04 23:57:29,901 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:57:30,259 - INFO - Response time: 357.50 ms
+2025-03-04 23:57:30,260 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:57:30,260 - INFO - [PASS] Response contains a list of products
+2025-03-04 23:57:30,261 - INFO - [PASS] Product list contains 20 items
+2025-03-04 23:57:30,261 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-04 23:57:30,263 - INFO - Finishing test: test_get_all_products
+2025-03-04 23:57:30,265 - INFO - Starting test: test_product_categories
+2025-03-04 23:57:30,265 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:57:30,575 - INFO - Response time: 310.71 ms
+2025-03-04 23:57:30,575 - INFO - [PASS] All expected categories found
+2025-03-04 23:57:30,579 - INFO - Finishing test: test_product_categories
+2025-03-04 23:57:30,580 - INFO - Starting test: test_product_structure
+2025-03-04 23:57:30,580 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:57:30,923 - INFO - Response time: 343.04 ms
+2025-03-04 23:57:30,923 - INFO - [PASS] Product contains required field: rating
+2025-03-04 23:57:30,925 - INFO - [PASS] Product contains required field: id
+2025-03-04 23:57:30,925 - INFO - [PASS] Product contains required field: price
+2025-03-04 23:57:30,925 - INFO - [PASS] Product contains required field: description
+2025-03-04 23:57:30,925 - INFO - [PASS] Product contains required field: image
+2025-03-04 23:57:30,925 - INFO - [PASS] Product contains required field: title
+2025-03-04 23:57:30,926 - INFO - [PASS] Product contains required field: category
+2025-03-04 23:57:30,926 - INFO - [PASS] Rating contains 'rate' field
+2025-03-04 23:57:30,926 - INFO - [PASS] Rating contains 'count' field
+2025-03-04 23:57:30,928 - INFO - Finishing test: test_product_structure
+2025-03-04 23:57:30,929 - INFO - Starting test: test_price_validation
+2025-03-04 23:57:30,930 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:57:31,247 - INFO - Response time: 316.91 ms
+2025-03-04 23:57:31,248 - INFO - [PASS] All prices are positive
+2025-03-04 23:57:31,248 - INFO - [PASS] All prices are below $1000
+2025-03-04 23:57:31,250 - INFO - Finishing test: test_price_validation
+2025-03-04 23:57:31,251 - INFO - Starting test: test_products_by_category
+2025-03-04 23:57:31,252 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-04 23:57:31,703 - INFO - Response time: 451.19 ms
+2025-03-04 23:57:31,704 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:57:31,704 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:57:31,704 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:57:31,704 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:57:31,705 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:57:31,705 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-04 23:57:31,705 - INFO - [PASS] Found 6 electronics products
+2025-03-04 23:57:31,707 - INFO - Finishing test: test_products_by_category
+2025-03-04 23:57:31,708 - INFO - Starting test: test_get_single_product
+2025-03-04 23:57:31,709 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:57:32,021 - INFO - Response time: 312.22 ms
+2025-03-04 23:57:32,022 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:57:32,022 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:57:32,023 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-04 23:57:32,026 - INFO - Finishing test: test_get_single_product
+2025-03-04 23:57:32,027 - INFO - Starting test: test_create_product
+2025-03-04 23:57:32,027 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:57:32,373 - INFO - Response time: 345.89 ms
+2025-03-04 23:57:32,374 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:57:32,375 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-04 23:57:32,375 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-04 23:57:32,377 - INFO - Finishing test: test_create_product
+2025-03-04 23:57:32,378 - INFO - Starting test: test_delete_product
+2025-03-04 23:57:32,379 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:57:32,693 - INFO - Response time: 313.66 ms
+2025-03-04 23:57:32,694 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:57:32,694 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:57:33,105 - INFO - Response time: 410.34 ms
+2025-03-04 23:57:33,105 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:57:33,109 - INFO - Finishing test: test_delete_product
+2025-03-04 23:57:33,111 - INFO - Starting test: test_api_response_time
+2025-03-04 23:57:33,112 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-04 23:57:33,420 - INFO - Response time: 308.25 ms
+2025-03-04 23:57:33,420 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:57:33,421 - INFO - [PASS] Response time 308.25 ms is within limit of 1000 ms
+2025-03-04 23:57:33,421 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-04 23:57:33,772 - INFO - Response time: 351.09 ms
+2025-03-04 23:57:33,772 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-04 23:57:33,773 - INFO - [PASS] Response time 351.09 ms is within limit of 500 ms
+2025-03-04 23:57:33,776 - INFO - Finishing test: test_api_response_time
+2025-03-04 23:57:33,778 - INFO - Starting test: test_get_nonexistent_product
+2025-03-04 23:57:33,778 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-04 23:57:34,044 - INFO - Response time: 265.95 ms
+2025-03-04 23:57:34,047 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-04 23:57:34,048 - INFO - Starting test: test_create_product_invalid_data
+2025-03-04 23:57:34,048 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-04 23:57:34,356 - INFO - Response time: 307.39 ms
+2025-03-04 23:57:34,356 - ERROR - [FAIL] API accepted invalid data without validation
+2025-03-04 23:57:34,425 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:25:39,089 - INFO - Starting test: test_get_all_products
+2025-03-05 00:25:39,090 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:25:39,394 - INFO - Response time: 304.10 ms
+2025-03-05 00:25:39,395 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:25:39,395 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:25:39,396 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:25:39,396 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:25:39,398 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:25:39,399 - INFO - Starting test: test_product_categories
+2025-03-05 00:25:39,399 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:25:39,747 - INFO - Response time: 347.65 ms
+2025-03-05 00:25:39,747 - INFO - [PASS] All expected categories found
+2025-03-05 00:25:39,750 - INFO - Finishing test: test_product_categories
+2025-03-05 00:25:39,751 - INFO - Starting test: test_product_structure
+2025-03-05 00:25:39,752 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:25:40,067 - INFO - Response time: 315.24 ms
+2025-03-05 00:25:40,068 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:25:40,068 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:25:40,068 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:25:40,069 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:25:40,069 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:25:40,070 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:25:40,070 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:25:40,070 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:25:40,070 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:25:40,072 - INFO - Finishing test: test_product_structure
+2025-03-05 00:25:40,073 - INFO - Starting test: test_price_validation
+2025-03-05 00:25:40,074 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:25:40,425 - INFO - Response time: 351.42 ms
+2025-03-05 00:25:40,426 - INFO - [PASS] All prices are positive
+2025-03-05 00:25:40,426 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:25:40,429 - INFO - Finishing test: test_price_validation
+2025-03-05 00:25:40,429 - INFO - Starting test: test_products_by_category
+2025-03-05 00:25:40,430 - INFO - GET request sent to https://fakestoreapi.com/products/category/electronics
+2025-03-05 00:25:40,858 - INFO - Response time: 427.96 ms
+2025-03-05 00:25:40,859 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-05 00:25:40,859 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-05 00:25:40,859 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-05 00:25:40,860 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-05 00:25:40,860 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-05 00:25:40,860 - INFO - [PASS] Values are equal: electronics == electronics
+2025-03-05 00:25:40,861 - INFO - [PASS] Found 6 electronics products
+2025-03-05 00:25:40,863 - INFO - Finishing test: test_products_by_category
+2025-03-05 00:25:40,864 - INFO - Starting test: test_get_single_product
+2025-03-05 00:25:40,865 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:25:41,168 - INFO - Response time: 302.97 ms
+2025-03-05 00:25:41,169 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:25:41,169 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:25:41,170 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:25:41,172 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:25:41,173 - INFO - Starting test: test_create_product
+2025-03-05 00:25:41,174 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:25:41,498 - INFO - Response time: 323.86 ms
+2025-03-05 00:25:41,499 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:25:41,499 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:25:41,500 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:25:41,502 - INFO - Finishing test: test_create_product
+2025-03-05 00:25:41,503 - INFO - Starting test: test_delete_product
+2025-03-05 00:25:41,503 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:25:41,803 - INFO - Response time: 300.05 ms
+2025-03-05 00:25:41,804 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:25:41,804 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:25:42,209 - INFO - Response time: 404.37 ms
+2025-03-05 00:25:42,210 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:25:42,213 - INFO - Finishing test: test_delete_product
+2025-03-05 00:25:42,214 - INFO - Starting test: test_api_response_time
+2025-03-05 00:25:42,214 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:25:42,524 - INFO - Response time: 310.06 ms
+2025-03-05 00:25:42,524 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:25:42,524 - INFO - [PASS] Response time 310.06 ms is within limit of 1000 ms
+2025-03-05 00:25:42,524 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:25:42,884 - INFO - Response time: 359.18 ms
+2025-03-05 00:25:42,884 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:25:42,885 - INFO - [PASS] Response time 359.18 ms is within limit of 500 ms
+2025-03-05 00:25:42,888 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:25:42,889 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:25:42,890 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:25:43,237 - INFO - Response time: 347.51 ms
+2025-03-05 00:25:43,239 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:25:43,240 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:25:43,241 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:25:43,598 - INFO - Response time: 357.21 ms
+2025-03-05 00:25:43,599 - ERROR - [FAIL] API accepted invalid data without validation
+2025-03-05 00:25:43,688 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:29:09,100 - INFO - Starting test: test_get_all_products
+2025-03-05 00:29:09,102 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:29:09,438 - INFO - Response time: 334.34 ms
+2025-03-05 00:29:09,438 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:09,438 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:29:09,438 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:29:09,439 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:29:09,441 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:29:09,441 - INFO - Starting test: test_product_categories
+2025-03-05 00:29:09,442 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:29:09,759 - INFO - Response time: 316.86 ms
+2025-03-05 00:29:09,760 - INFO - [PASS] All expected categories found
+2025-03-05 00:29:09,762 - INFO - Finishing test: test_product_categories
+2025-03-05 00:29:09,763 - INFO - Starting test: test_product_structure
+2025-03-05 00:29:09,763 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:29:10,117 - INFO - Response time: 352.86 ms
+2025-03-05 00:29:10,118 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:29:10,118 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:29:10,118 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:29:10,118 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:29:10,119 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:29:10,119 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:29:10,119 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:29:10,119 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:29:10,119 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:29:10,122 - INFO - Finishing test: test_product_structure
+2025-03-05 00:29:10,123 - INFO - Starting test: test_price_validation
+2025-03-05 00:29:10,123 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:29:10,397 - INFO - Response time: 274.15 ms
+2025-03-05 00:29:10,398 - INFO - [PASS] All prices are positive
+2025-03-05 00:29:10,398 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:29:10,401 - INFO - Finishing test: test_price_validation
+2025-03-05 00:29:10,402 - INFO - Starting test: test_get_single_product
+2025-03-05 00:29:10,403 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:29:10,752 - INFO - Response time: 349.14 ms
+2025-03-05 00:29:10,752 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:10,753 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:29:10,753 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:29:10,755 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:29:10,756 - INFO - Starting test: test_create_product
+2025-03-05 00:29:10,757 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:29:11,070 - INFO - Response time: 312.60 ms
+2025-03-05 00:29:11,071 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:11,071 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:29:11,071 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:29:11,074 - INFO - Finishing test: test_create_product
+2025-03-05 00:29:11,075 - INFO - Starting test: test_delete_product
+2025-03-05 00:29:11,076 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:29:11,382 - INFO - Response time: 306.73 ms
+2025-03-05 00:29:11,383 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:11,383 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:29:11,782 - INFO - Response time: 398.77 ms
+2025-03-05 00:29:11,783 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:11,787 - INFO - Finishing test: test_delete_product
+2025-03-05 00:29:11,788 - INFO - Starting test: test_api_response_time
+2025-03-05 00:29:11,788 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:29:12,142 - INFO - Response time: 353.70 ms
+2025-03-05 00:29:12,142 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:12,142 - INFO - [PASS] Response time 353.70 ms is within limit of 1000 ms
+2025-03-05 00:29:12,143 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:29:12,457 - INFO - Response time: 313.87 ms
+2025-03-05 00:29:12,458 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:12,458 - INFO - [PASS] Response time 313.87 ms is within limit of 500 ms
+2025-03-05 00:29:12,461 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:29:12,462 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:29:12,462 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:29:12,809 - INFO - Response time: 346.75 ms
+2025-03-05 00:29:12,809 - ERROR - [FAIL] Unexpected status code! Expected: 404, Actual: 200
+2025-03-05 00:29:12,883 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:29:12,884 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:29:12,884 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:29:13,235 - INFO - Response time: 350.20 ms
+2025-03-05 00:29:13,236 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:29:13,236 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:29:13,238 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:30:31,646 - INFO - Starting test: test_get_all_products
+2025-03-05 00:30:31,646 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:30:31,962 - INFO - Response time: 314.99 ms
+2025-03-05 00:30:31,962 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:31,963 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:30:31,963 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:30:31,963 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:30:31,965 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:30:31,966 - INFO - Starting test: test_product_categories
+2025-03-05 00:30:31,967 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:30:32,276 - INFO - Response time: 308.50 ms
+2025-03-05 00:30:32,277 - INFO - [PASS] All expected categories found
+2025-03-05 00:30:32,279 - INFO - Finishing test: test_product_categories
+2025-03-05 00:30:32,280 - INFO - Starting test: test_product_structure
+2025-03-05 00:30:32,280 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:30:32,627 - INFO - Response time: 346.24 ms
+2025-03-05 00:30:32,628 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:30:32,628 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:30:32,628 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:30:32,628 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:30:32,629 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:30:32,629 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:30:32,629 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:30:32,629 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:30:32,629 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:30:32,631 - INFO - Finishing test: test_product_structure
+2025-03-05 00:30:32,633 - INFO - Starting test: test_price_validation
+2025-03-05 00:30:32,633 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:30:32,953 - INFO - Response time: 319.36 ms
+2025-03-05 00:30:32,953 - INFO - [PASS] All prices are positive
+2025-03-05 00:30:32,953 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:30:32,956 - INFO - Finishing test: test_price_validation
+2025-03-05 00:30:32,957 - INFO - Starting test: test_get_single_product
+2025-03-05 00:30:32,957 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:30:33,271 - INFO - Response time: 313.24 ms
+2025-03-05 00:30:33,271 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:33,272 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:30:33,272 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:30:33,274 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:30:33,274 - INFO - Starting test: test_create_product
+2025-03-05 00:30:33,275 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:30:33,619 - INFO - Response time: 343.93 ms
+2025-03-05 00:30:33,620 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:33,621 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:30:33,621 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:30:33,622 - INFO - Finishing test: test_create_product
+2025-03-05 00:30:33,623 - INFO - Starting test: test_delete_product
+2025-03-05 00:30:33,624 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:30:33,888 - INFO - Response time: 263.46 ms
+2025-03-05 00:30:33,889 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:33,889 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:30:34,334 - INFO - Response time: 445.17 ms
+2025-03-05 00:30:34,335 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:34,338 - INFO - Finishing test: test_delete_product
+2025-03-05 00:30:34,339 - INFO - Starting test: test_api_response_time
+2025-03-05 00:30:34,340 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:30:34,706 - INFO - Response time: 365.67 ms
+2025-03-05 00:30:34,706 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:34,707 - INFO - [PASS] Response time 365.67 ms is within limit of 1000 ms
+2025-03-05 00:30:34,707 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:30:35,017 - INFO - Response time: 310.22 ms
+2025-03-05 00:30:35,018 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:35,018 - INFO - [PASS] Response time 310.22 ms is within limit of 500 ms
+2025-03-05 00:30:35,021 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:30:35,022 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:30:35,023 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:30:35,379 - INFO - Response time: 356.52 ms
+2025-03-05 00:30:35,379 - ERROR - [FAIL] Unexpected status code! Expected: 404, Actual: 200
+2025-03-05 00:30:35,455 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:30:35,457 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:30:35,458 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:30:35,759 - INFO - Response time: 300.36 ms
+2025-03-05 00:30:35,760 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:30:35,760 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:30:35,762 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:31:47,646 - INFO - Starting test: test_get_all_products
+2025-03-05 00:31:47,647 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:31:47,953 - INFO - Response time: 306.62 ms
+2025-03-05 00:31:47,954 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:47,954 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:31:47,955 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:31:47,955 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:31:47,957 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:31:47,958 - INFO - Starting test: test_product_categories
+2025-03-05 00:31:47,959 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:31:48,305 - INFO - Response time: 345.20 ms
+2025-03-05 00:31:48,305 - INFO - [PASS] All expected categories found
+2025-03-05 00:31:48,307 - INFO - Finishing test: test_product_categories
+2025-03-05 00:31:48,308 - INFO - Starting test: test_product_structure
+2025-03-05 00:31:48,309 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:31:48,660 - INFO - Response time: 350.59 ms
+2025-03-05 00:31:48,660 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:31:48,660 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:31:48,660 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:31:48,660 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:31:48,660 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:31:48,660 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:31:48,661 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:31:48,661 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:31:48,661 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:31:48,663 - INFO - Finishing test: test_product_structure
+2025-03-05 00:31:48,664 - INFO - Starting test: test_price_validation
+2025-03-05 00:31:48,665 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:31:48,969 - INFO - Response time: 303.78 ms
+2025-03-05 00:31:48,969 - INFO - [PASS] All prices are positive
+2025-03-05 00:31:48,970 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:31:48,973 - INFO - Finishing test: test_price_validation
+2025-03-05 00:31:48,974 - INFO - Starting test: test_get_single_product
+2025-03-05 00:31:48,974 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:31:49,247 - INFO - Response time: 272.60 ms
+2025-03-05 00:31:49,248 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:49,248 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:31:49,249 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:31:49,251 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:31:49,252 - INFO - Starting test: test_create_product
+2025-03-05 00:31:49,253 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:31:49,557 - INFO - Response time: 304.55 ms
+2025-03-05 00:31:49,558 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:49,558 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:31:49,558 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:31:49,561 - INFO - Finishing test: test_create_product
+2025-03-05 00:31:49,561 - INFO - Starting test: test_delete_product
+2025-03-05 00:31:49,562 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:31:49,880 - INFO - Response time: 317.37 ms
+2025-03-05 00:31:49,881 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:49,881 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:31:50,327 - INFO - Response time: 445.42 ms
+2025-03-05 00:31:50,328 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:50,331 - INFO - Finishing test: test_delete_product
+2025-03-05 00:31:50,332 - INFO - Starting test: test_api_response_time
+2025-03-05 00:31:50,332 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:31:50,683 - INFO - Response time: 349.74 ms
+2025-03-05 00:31:50,683 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:50,683 - INFO - [PASS] Response time 349.74 ms is within limit of 1000 ms
+2025-03-05 00:31:50,684 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:31:50,987 - INFO - Response time: 303.24 ms
+2025-03-05 00:31:50,988 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:50,989 - INFO - [PASS] Response time 303.24 ms is within limit of 500 ms
+2025-03-05 00:31:50,992 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:31:50,993 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:31:50,993 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:31:51,260 - INFO - Response time: 265.64 ms
+2025-03-05 00:31:51,261 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:51,261 - INFO - API returned non-JSON response for non-existent product
+2025-03-05 00:31:51,263 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:31:51,265 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:31:51,265 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:31:51,618 - INFO - Response time: 352.83 ms
+2025-03-05 00:31:51,619 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:31:51,619 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:31:51,622 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:58:13,548 - INFO - Starting test: test_get_all_products
+2025-03-05 00:58:13,548 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:58:13,864 - INFO - Response time: 314.59 ms
+2025-03-05 00:58:13,864 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:13,865 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:58:13,865 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:58:13,865 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:58:13,867 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:58:13,869 - INFO - Starting test: test_product_categories
+2025-03-05 00:58:13,869 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:58:14,183 - INFO - Response time: 313.54 ms
+2025-03-05 00:58:14,184 - INFO - [PASS] All expected categories found
+2025-03-05 00:58:14,186 - INFO - Finishing test: test_product_categories
+2025-03-05 00:58:14,187 - INFO - Starting test: test_product_structure
+2025-03-05 00:58:14,188 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:58:14,494 - INFO - Response time: 305.99 ms
+2025-03-05 00:58:14,495 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:58:14,495 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:58:14,496 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:58:14,496 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:58:14,496 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:58:14,496 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:58:14,496 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:58:14,497 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:58:14,497 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:58:14,499 - INFO - Finishing test: test_product_structure
+2025-03-05 00:58:14,499 - INFO - Starting test: test_price_validation
+2025-03-05 00:58:14,500 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:58:14,765 - INFO - Response time: 264.66 ms
+2025-03-05 00:58:14,766 - INFO - [PASS] All prices are positive
+2025-03-05 00:58:14,766 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:58:14,768 - INFO - Finishing test: test_price_validation
+2025-03-05 00:58:14,770 - INFO - Starting test: test_get_single_product
+2025-03-05 00:58:14,770 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:58:15,073 - INFO - Response time: 302.97 ms
+2025-03-05 00:58:15,074 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:15,074 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:58:15,074 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:58:15,076 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:58:15,077 - INFO - Starting test: test_create_product
+2025-03-05 00:58:15,078 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:58:15,379 - INFO - Response time: 300.08 ms
+2025-03-05 00:58:15,379 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:15,380 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:58:15,380 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:58:15,382 - INFO - Finishing test: test_create_product
+2025-03-05 00:58:15,383 - INFO - Starting test: test_delete_product
+2025-03-05 00:58:15,384 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:58:15,733 - INFO - Response time: 348.69 ms
+2025-03-05 00:58:15,734 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:15,736 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:58:16,186 - INFO - Response time: 450.03 ms
+2025-03-05 00:58:16,187 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:16,191 - INFO - Finishing test: test_delete_product
+2025-03-05 00:58:16,192 - INFO - Starting test: test_api_response_time
+2025-03-05 00:58:16,193 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:58:16,539 - INFO - Response time: 346.58 ms
+2025-03-05 00:58:16,539 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:16,539 - INFO - [PASS] Response time 346.58 ms is within limit of 1000 ms
+2025-03-05 00:58:16,540 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:58:16,854 - INFO - Response time: 313.83 ms
+2025-03-05 00:58:16,855 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:16,855 - INFO - [PASS] Response time 313.83 ms is within limit of 500 ms
+2025-03-05 00:58:16,859 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:58:16,861 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:58:16,861 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:58:17,121 - INFO - Response time: 260.36 ms
+2025-03-05 00:58:17,121 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:17,122 - INFO - API returned non-JSON response for non-existent product
+2025-03-05 00:58:17,123 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:58:17,124 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:58:17,126 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:58:17,431 - INFO - Response time: 305.63 ms
+2025-03-05 00:58:17,432 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:58:17,432 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:58:17,435 - INFO - Finishing test: test_create_product_invalid_data
