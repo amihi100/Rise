@@ -1,0 +1,304 @@
+2025-03-05 00:35:25,978 - INFO - Starting test: test_get_all_products
+2025-03-05 00:35:25,979 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:26,438 - INFO - Response time: 459.48 ms
+2025-03-05 00:35:26,439 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:26,440 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:35:26,440 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:35:26,440 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:35:26,445 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:35:26,446 - INFO - Starting test: test_product_categories
+2025-03-05 00:35:26,447 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:26,678 - INFO - Response time: 231.25 ms
+2025-03-05 00:35:26,678 - INFO - [PASS] All expected categories found
+2025-03-05 00:35:26,680 - INFO - Finishing test: test_product_categories
+2025-03-05 00:35:26,681 - INFO - Starting test: test_product_structure
+2025-03-05 00:35:26,681 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:26,968 - INFO - Response time: 286.97 ms
+2025-03-05 00:35:26,969 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:35:26,969 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:35:26,969 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:35:26,970 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:35:26,970 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:35:26,970 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:35:26,970 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:35:26,970 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:35:26,970 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:35:26,974 - INFO - Finishing test: test_product_structure
+2025-03-05 00:35:26,975 - INFO - Starting test: test_price_validation
+2025-03-05 00:35:26,976 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:27,283 - INFO - Response time: 306.57 ms
+2025-03-05 00:35:27,284 - INFO - [PASS] All prices are positive
+2025-03-05 00:35:27,284 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:35:27,287 - INFO - Finishing test: test_price_validation
+2025-03-05 00:35:27,288 - INFO - Starting test: test_get_single_product
+2025-03-05 00:35:27,289 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:27,518 - INFO - Response time: 229.13 ms
+2025-03-05 00:35:27,522 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:27,522 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:35:27,522 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:35:27,526 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:35:27,528 - INFO - Starting test: test_create_product
+2025-03-05 00:35:27,529 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:27,857 - INFO - Response time: 327.68 ms
+2025-03-05 00:35:27,858 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:27,859 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:35:27,859 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:35:27,863 - INFO - Finishing test: test_create_product
+2025-03-05 00:35:27,864 - INFO - Starting test: test_delete_product
+2025-03-05 00:35:27,865 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:28,901 - INFO - Response time: 1036.09 ms
+2025-03-05 00:35:28,902 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:28,903 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:29,933 - INFO - Response time: 1029.92 ms
+2025-03-05 00:35:29,934 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:29,941 - INFO - Finishing test: test_delete_product
+2025-03-05 00:35:29,943 - INFO - Starting test: test_api_response_time
+2025-03-05 00:35:29,943 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:30,222 - INFO - Response time: 277.95 ms
+2025-03-05 00:35:30,222 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:30,223 - INFO - [PASS] Response time 277.95 ms is within limit of 1000 ms
+2025-03-05 00:35:30,223 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:30,542 - INFO - Response time: 318.43 ms
+2025-03-05 00:35:30,543 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:30,543 - INFO - [PASS] Response time 318.43 ms is within limit of 500 ms
+2025-03-05 00:35:30,548 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:35:30,549 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:35:30,550 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:35:30,842 - INFO - Response time: 291.79 ms
+2025-03-05 00:35:30,842 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:30,843 - INFO - API returned non-JSON response for non-existent product
+2025-03-05 00:35:30,848 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:35:30,849 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:35:30,850 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:31,090 - INFO - Response time: 240.23 ms
+2025-03-05 00:35:31,091 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:31,091 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:35:31,094 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:35:56,232 - INFO - Starting test: test_get_all_products
+2025-03-05 00:35:56,233 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:56,589 - INFO - Response time: 356.48 ms
+2025-03-05 00:35:56,590 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:56,591 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:35:56,592 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:35:56,593 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:35:56,598 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:35:56,600 - INFO - Starting test: test_product_categories
+2025-03-05 00:35:56,600 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:56,950 - INFO - Response time: 349.47 ms
+2025-03-05 00:35:56,951 - INFO - [PASS] All expected categories found
+2025-03-05 00:35:56,955 - INFO - Finishing test: test_product_categories
+2025-03-05 00:35:56,956 - INFO - Starting test: test_product_structure
+2025-03-05 00:35:56,958 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:57,278 - INFO - Response time: 319.88 ms
+2025-03-05 00:35:57,279 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:35:57,280 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:35:57,280 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:35:57,280 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:35:57,281 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:35:57,281 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:35:57,281 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:35:57,282 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:35:57,282 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:35:57,285 - INFO - Finishing test: test_product_structure
+2025-03-05 00:35:57,287 - INFO - Starting test: test_price_validation
+2025-03-05 00:35:57,287 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:57,585 - INFO - Response time: 296.99 ms
+2025-03-05 00:35:57,586 - INFO - [PASS] All prices are positive
+2025-03-05 00:35:57,587 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:35:57,592 - INFO - Finishing test: test_price_validation
+2025-03-05 00:35:57,593 - INFO - Starting test: test_get_single_product
+2025-03-05 00:35:57,594 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:57,945 - INFO - Response time: 351.14 ms
+2025-03-05 00:35:57,946 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:57,947 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:35:57,947 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:35:57,951 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:35:57,953 - INFO - Starting test: test_create_product
+2025-03-05 00:35:57,954 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:35:58,279 - INFO - Response time: 324.47 ms
+2025-03-05 00:35:58,280 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:58,280 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:35:58,281 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:35:58,286 - INFO - Finishing test: test_create_product
+2025-03-05 00:35:58,288 - INFO - Starting test: test_delete_product
+2025-03-05 00:35:58,289 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:35:58,622 - INFO - Response time: 333.36 ms
+2025-03-05 00:35:58,623 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:35:58,623 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:36:00,145 - INFO - Response time: 1521.28 ms
+2025-03-05 00:36:00,146 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:36:00,152 - INFO - Finishing test: test_delete_product
+2025-03-05 00:36:00,154 - INFO - Starting test: test_api_response_time
+2025-03-05 00:36:00,154 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:36:00,484 - INFO - Response time: 329.12 ms
+2025-03-05 00:36:00,484 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:36:00,485 - INFO - [PASS] Response time 329.12 ms is within limit of 1000 ms
+2025-03-05 00:36:00,485 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:36:00,824 - INFO - Response time: 339.16 ms
+2025-03-05 00:36:00,826 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:36:00,827 - INFO - [PASS] Response time 339.16 ms is within limit of 500 ms
+2025-03-05 00:36:00,833 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:36:00,834 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:36:00,835 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:36:01,024 - INFO - Response time: 189.70 ms
+2025-03-05 00:36:01,025 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:36:01,026 - INFO - API returned non-JSON response for non-existent product
+2025-03-05 00:36:01,030 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:36:01,031 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:36:01,032 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:36:01,221 - INFO - Response time: 188.48 ms
+2025-03-05 00:36:01,222 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:36:01,222 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:36:01,225 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:37:43,227 - INFO - Starting test: test_get_all_products
+2025-03-05 00:37:43,228 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:37:43,402 - INFO - Response time: 174.22 ms
+2025-03-05 00:37:43,402 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:43,403 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:37:43,403 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:37:43,403 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:37:43,405 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:37:43,406 - INFO - Starting test: test_product_categories
+2025-03-05 00:37:43,406 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:37:43,540 - INFO - Response time: 134.11 ms
+2025-03-05 00:37:43,541 - INFO - [PASS] All expected categories found
+2025-03-05 00:37:43,544 - INFO - Finishing test: test_product_categories
+2025-03-05 00:37:43,545 - INFO - Starting test: test_product_structure
+2025-03-05 00:37:43,545 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:37:43,726 - INFO - Response time: 180.99 ms
+2025-03-05 00:37:43,727 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:37:43,728 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:37:43,728 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:37:43,728 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:37:43,728 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:37:43,729 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:37:43,729 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:37:43,729 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:37:43,729 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:37:43,732 - INFO - Finishing test: test_product_structure
+2025-03-05 00:37:43,733 - INFO - Starting test: test_price_validation
+2025-03-05 00:37:43,734 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:37:43,878 - INFO - Response time: 144.42 ms
+2025-03-05 00:37:43,879 - INFO - [PASS] All prices are positive
+2025-03-05 00:37:43,880 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:37:43,883 - INFO - Finishing test: test_price_validation
+2025-03-05 00:37:43,884 - INFO - Starting test: test_get_single_product
+2025-03-05 00:37:43,885 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:37:44,024 - INFO - Response time: 138.77 ms
+2025-03-05 00:37:44,025 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:44,025 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:37:44,026 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:37:44,029 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:37:44,030 - INFO - Starting test: test_create_product
+2025-03-05 00:37:44,031 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:37:44,209 - INFO - Response time: 177.78 ms
+2025-03-05 00:37:44,210 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:44,210 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:37:44,211 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:37:44,215 - INFO - Finishing test: test_create_product
+2025-03-05 00:37:44,217 - INFO - Starting test: test_delete_product
+2025-03-05 00:37:44,217 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:37:44,396 - INFO - Response time: 178.02 ms
+2025-03-05 00:37:44,396 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:44,397 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:37:44,681 - INFO - Response time: 283.64 ms
+2025-03-05 00:37:44,681 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:44,686 - INFO - Finishing test: test_delete_product
+2025-03-05 00:37:44,687 - INFO - Starting test: test_api_response_time
+2025-03-05 00:37:44,688 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:37:44,868 - INFO - Response time: 180.22 ms
+2025-03-05 00:37:44,869 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:44,869 - INFO - [PASS] Response time 180.22 ms is within limit of 1000 ms
+2025-03-05 00:37:44,869 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:37:45,007 - INFO - Response time: 137.47 ms
+2025-03-05 00:37:45,008 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:45,009 - INFO - [PASS] Response time 137.47 ms is within limit of 500 ms
+2025-03-05 00:37:45,014 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:37:45,016 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:37:45,016 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:37:45,160 - INFO - Response time: 143.39 ms
+2025-03-05 00:37:45,161 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:45,161 - INFO - API returned non-JSON response for non-existent product
+2025-03-05 00:37:45,165 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:37:45,167 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:37:45,168 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:37:45,311 - INFO - Response time: 143.14 ms
+2025-03-05 00:37:45,312 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:37:45,312 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:37:45,316 - INFO - Finishing test: test_create_product_invalid_data
+2025-03-05 00:42:08,974 - INFO - Starting test: test_get_all_products
+2025-03-05 00:42:08,975 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:42:09,160 - INFO - Response time: 185.02 ms
+2025-03-05 00:42:09,160 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:09,160 - INFO - [PASS] Response contains a list of products
+2025-03-05 00:42:09,160 - INFO - [PASS] Product list contains 20 items
+2025-03-05 00:42:09,161 - INFO - Products: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Mens Casual Premium Slim Fit T-Shirts , Mens Cotton Jacket... and 17 more
+2025-03-05 00:42:09,162 - INFO - Finishing test: test_get_all_products
+2025-03-05 00:42:09,163 - INFO - Starting test: test_product_categories
+2025-03-05 00:42:09,164 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:42:09,346 - INFO - Response time: 181.96 ms
+2025-03-05 00:42:09,347 - INFO - [PASS] All expected categories found
+2025-03-05 00:42:09,351 - INFO - Finishing test: test_product_categories
+2025-03-05 00:42:09,352 - INFO - Starting test: test_product_structure
+2025-03-05 00:42:09,352 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:42:09,493 - INFO - Response time: 140.64 ms
+2025-03-05 00:42:09,493 - INFO - [PASS] Product contains required field: description
+2025-03-05 00:42:09,494 - INFO - [PASS] Product contains required field: title
+2025-03-05 00:42:09,494 - INFO - [PASS] Product contains required field: category
+2025-03-05 00:42:09,494 - INFO - [PASS] Product contains required field: price
+2025-03-05 00:42:09,494 - INFO - [PASS] Product contains required field: id
+2025-03-05 00:42:09,494 - INFO - [PASS] Product contains required field: image
+2025-03-05 00:42:09,494 - INFO - [PASS] Product contains required field: rating
+2025-03-05 00:42:09,495 - INFO - [PASS] Rating contains 'rate' field
+2025-03-05 00:42:09,495 - INFO - [PASS] Rating contains 'count' field
+2025-03-05 00:42:09,496 - INFO - Finishing test: test_product_structure
+2025-03-05 00:42:09,497 - INFO - Starting test: test_price_validation
+2025-03-05 00:42:09,498 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:42:09,683 - INFO - Response time: 184.81 ms
+2025-03-05 00:42:09,683 - INFO - [PASS] All prices are positive
+2025-03-05 00:42:09,683 - INFO - [PASS] All prices are below $1000
+2025-03-05 00:42:09,687 - INFO - Finishing test: test_price_validation
+2025-03-05 00:42:09,689 - INFO - Starting test: test_get_single_product
+2025-03-05 00:42:09,689 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:42:09,831 - INFO - Response time: 141.13 ms
+2025-03-05 00:42:09,831 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:09,832 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:42:09,832 - INFO - [PASS] JSON value check: 'id' equals 1
+2025-03-05 00:42:09,835 - INFO - Finishing test: test_get_single_product
+2025-03-05 00:42:09,836 - INFO - Starting test: test_create_product
+2025-03-05 00:42:09,836 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:42:10,028 - INFO - Response time: 191.60 ms
+2025-03-05 00:42:10,029 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:10,029 - INFO - [PASS] JSON has key: 'id' found in response
+2025-03-05 00:42:10,030 - INFO - [PASS] JSON value check: 'title' equals Test Product
+2025-03-05 00:42:10,033 - INFO - Finishing test: test_create_product
+2025-03-05 00:42:10,034 - INFO - Starting test: test_delete_product
+2025-03-05 00:42:10,035 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:42:10,215 - INFO - Response time: 180.22 ms
+2025-03-05 00:42:10,216 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:10,216 - INFO - DELETE request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:42:11,649 - INFO - Response time: 1432.85 ms
+2025-03-05 00:42:11,650 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:11,656 - INFO - Finishing test: test_delete_product
+2025-03-05 00:42:11,658 - INFO - Starting test: test_api_response_time
+2025-03-05 00:42:11,659 - INFO - GET request sent to https://fakestoreapi.com/products
+2025-03-05 00:42:11,848 - INFO - Response time: 189.01 ms
+2025-03-05 00:42:11,849 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:11,849 - INFO - [PASS] Response time 189.01 ms is within limit of 1000 ms
+2025-03-05 00:42:11,849 - INFO - GET request sent to https://fakestoreapi.com/products/1
+2025-03-05 00:42:12,039 - INFO - Response time: 190.18 ms
+2025-03-05 00:42:12,040 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:12,040 - INFO - [PASS] Response time 190.18 ms is within limit of 500 ms
+2025-03-05 00:42:12,046 - INFO - Finishing test: test_api_response_time
+2025-03-05 00:42:12,048 - INFO - Starting test: test_get_nonexistent_product
+2025-03-05 00:42:12,048 - INFO - GET request sent to https://fakestoreapi.com/products/999
+2025-03-05 00:42:12,189 - INFO - Response time: 140.59 ms
+2025-03-05 00:42:12,190 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:12,191 - INFO - API returned non-JSON response for non-existent product
+2025-03-05 00:42:12,195 - INFO - Finishing test: test_get_nonexistent_product
+2025-03-05 00:42:12,197 - INFO - Starting test: test_create_product_invalid_data
+2025-03-05 00:42:12,197 - INFO - POST request sent to https://fakestoreapi.com/products
+2025-03-05 00:42:12,340 - INFO - Response time: 142.29 ms
+2025-03-05 00:42:12,342 - INFO - [PASS] Status code check: Expected 200, got 200
+2025-03-05 00:42:12,342 - INFO - Note: FakeStoreAPI accepts invalid data (expected behavior for this mock API)
+2025-03-05 00:42:12,344 - INFO - Finishing test: test_create_product_invalid_data
