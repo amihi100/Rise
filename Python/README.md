@@ -27,7 +27,7 @@ Delete a product:
 response = self.api_client.delete("products", 1)
 
 **Clone the repo:**
-git clone "https://github.com/amihi100/API_Python.git" "your\local\machaine"
+git clone "https://github.com/amihi100/Rise.git" "your\local\machaine"
 
 **Run tests commands:**
 pytest --html=reports/report.html
@@ -38,13 +38,13 @@ docker build -t api-test-framework .
 **Run tests in Docker:**
 docker run my-app
 OR:
-docker run -v $(pwd)/reports:/app/reports api-test-framework
+docker run -v $(pwd)/reports:/app/Python/reports api-test-framework
 
 **Reports:**
 HTML report of 9 tests will be generated each run under:
 \RiseProject\reports\report.html
 generated html file: file:
-///C:/Documents/RiseProject/reports/report.html
+///C:/Documents/Rise/Python/reports/report.html
 
 ==================================== 10 passed in 4.00s ====================================
 
